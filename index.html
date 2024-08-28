@@ -54,10 +54,10 @@
         <h2>Login</h2>
         <form action="https://sheetdb.io/api/v1/sukxyvcd371y0" method="POST" id="Login">
             <label for="username">Email</label>
-            <input type="text" id="username" name="data[email]" placeholder="Digite seu email" required>
+            <input type="text" id="username" name="email" placeholder="Digite seu email" required>
             
             <label for="password">Senha</label>
-            <input type="password" id="password" name="data[senha]" placeholder="Digite sua senha" required>
+            <input type="password" id="password" name="senha" placeholder="Digite sua senha" required>
             
             <button type="submit">Entrar</button>
         </form>
@@ -76,7 +76,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ data })
+                body: JSON.stringify(data)
             })
             .then(response => {
                 if (response.ok) {
